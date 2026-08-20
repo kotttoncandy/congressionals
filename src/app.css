@@ -1,0 +1,53 @@
+:root:not([data-theme=dark]) {
+ /* Main */
+    --pico-background-color: white;
+    --pico-color: #273338;
+    --pico-primary: #273338;
+
+    /* Everything under this until the noted is useless until used */
+    --pico-primary-background: #c1121f;
+    --pico-primary-border: #c1121f;
+
+    --pico-primary-hover: #384850;
+    --pico-primary-hover-background: #780000;
+    --pico-primary-hover-border: #780000;
+
+    /* Secondary */
+    --pico-secondary: #669bbc;
+    --pico-secondary-background: #669bbc;
+    --pico-secondary-border: #669bbc;
+
+    --pico-secondary-hover: #003049;
+    --pico-secondary-hover-background: #003049;
+    --pico-secondary-hover-border: #003049;
+
+
+    /* okay it useful now */
+    /* Cards */
+    --pico-card-background-color: #91C4C3;
+    
+    --pico-card-border-color: none;
+
+
+    /* Headings */
+    --pico-h1-color: #273338;
+    --pico-h2-color: #273338;
+    --pico-h3-color: #273338;
+    --pico-h4-color: #273338;
+
+    /* Muted text */
+    --pico-muted-color: #669bbc;
+    --pico-muted-border-color: #669bbc;
+
+    /* Niche Colors */
+    --hike-color: #2B5748;
+    --hike-text-color: #9CB080;
+    --beach-color: #80A1BA;
+    --beach-text-color: rgb(57, 61, 91);
+    --footer-background-color: #E3F2FD;
+
+}
+
+i {
+  color: var(--pico-color)
+}
