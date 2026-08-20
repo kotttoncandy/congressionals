@@ -42,7 +42,7 @@
         max-width: 300px;
     }
     .bottom-nav nav:not(:hover) {
-        max-width: 200px;
+        max-width: 225px;
         transition-delay: 0.1s;
     }
 

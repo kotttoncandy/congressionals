@@ -2,11 +2,11 @@
     import { onMount } from "svelte";
     import { trails } from "../lib/trailData";
     import { beaches } from "../lib/beachData"
-    import SiteHeader from "./siteHeader.svelte";
-    import MainSlider from "./mainSlider.svelte";
-    import BeachSlider from "./beachSlider.svelte";
-    import Footer from "./footer.svelte";
-    import Tracker from "./tracker.svelte";
+    import SiteHeader from "$lib/components//siteHeader.svelte";
+    import MainSlider from "$lib/components//mainSlider.svelte";
+    import BeachSlider from "$lib/components/beachSlider.svelte";
+    import Footer from "$lib/components/footer.svelte";
+    import Tracker from "$lib/components//tracker.svelte";
     var index = $state(3);
     let loading = $state(true);
 
