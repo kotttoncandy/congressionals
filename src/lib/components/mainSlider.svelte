@@ -4,7 +4,7 @@
     var lon = 0
     let { trail } = $props();
     let image = $state("");
-
+    let description = $state("")
     $effect(() => {
 
         coords = trail.coords
@@ -12,7 +12,7 @@
         lon = coords.longitude
         const controller = new AbortController();
         getCity(controller.signal)
-
+        getDetails()
         if (trail?.name) {
             getImage(trail.name);
         }
@@ -47,6 +47,13 @@
 
     }
 
+    async function getDetails() {
+        const response = await fetch(`/api/trails?trail=${trail.idKey}`);
+        const data = await response.json();
+        console.log(data)
+        description = data.data.specialConditions
+        
+    }
 
     async function getImage(name) {
 
@@ -68,16 +75,15 @@
 
         image = page.imageinfo?.[0]?.thumburl ?? "";
     }
+    
 </script>
 
 <article class="trail-card">
 
         <div class="trailInfo">
             <h5 class="trailName">{trail.name}</h5>
-            <p>
-                Length: {trail.lengthMiles}mi
-                <br>
-                Located in: {city}
+            <p class="description">
+                {description}
             </p>
 
 
@@ -132,5 +138,9 @@
         height: 50%;
     }
 
+    .description {
+        overflow-y: scroll;
+        max-height: 80%;
+    }
 
 </style>

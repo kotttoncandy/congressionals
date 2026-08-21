@@ -7,23 +7,70 @@
     import BeachSlider from "$lib/components/beachSlider.svelte";
     import Footer from "$lib/components/footer.svelte";
     import Tracker from "$lib/components//tracker.svelte";
-    var index = $state(3);
+    import { userData } from "$lib/userData";
+    var index = $state(0);
     let loading = $state(true);
+    var distances = [
 
-    let userData = {
-        island: "oahu",
-        experience: "easy",
-        beachActivities: [
-            "swimming"
-        ]
+    ]
+
+    function distanceMiles(lat1, lon1, lat2, lon2) {
+        const R = 3958.8; // Earth's radius in miles
+
+        const toRadians = degrees => degrees * Math.PI / 180;
+
+        const dLat = toRadians(lat2 - lat1);
+        const dLon = toRadians(lon2 - lon1);
+
+        const a =
+            Math.sin(dLat / 2) ** 2 +
+            Math.cos(toRadians(lat1)) *
+            Math.cos(toRadians(lat2)) *
+            Math.sin(dLon / 2) ** 2;
+
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+        return R * c;
+    }
+
+    async function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition, showError);
+        } else { 
+            alert("location cannot be determined")
+        }
+    }
+
+    function showPosition(position) {
+        userData.update(current => ({
+            ...current,
+            lat: position.coords.latitude,
+            lon: position.coords.longitude
+        }));
+    }
+
+    function showError() {
+        alert("location cannot be determined")
     }
 
     async function getTrails() {
-        const response = await fetch("/api/trails");
+        const response = await fetch(`/api/trails`);
         const data = await response.json();
         trails.set(data.data);
-        const ISLAND = $trails.filter((trail) => trail.island === "OAHU");
+        console.log(data.data)
+        const ISLAND = $trails.filter((trail) => trail.island === "OAHU" && trail.closed === false);
+
         trails.set(ISLAND);
+        $trails.forEach(element => {
+            distances[element.idKey] = distanceMiles(
+                element.coords.latitude, element.coords.longitude, 
+                $userData.lat, $userData.lon
+            )   
+        });
+
+        const sortByDistance = $trails.sort((a, b) => distances[a.idKey] - distances[b.idKey]);
+        trails.set(sortByDistance)
+        console.log(sortByDistance)
         getBeaches()
     }
     async function getBeaches() {
@@ -37,6 +84,7 @@
     }
     onMount(() => {
         getTrails();
+        getLocation();
     });
 </script>
 
@@ -62,12 +110,12 @@
             <Tracker></Tracker>
             <h4>Hikes near you:</h4>
             <div class="slider">
-                <MainSlider trail={$trails[index - 1]}></MainSlider>
                 <MainSlider trail={$trails[index]}></MainSlider>
+                <MainSlider trail={$trails[index+1]}></MainSlider>
             </div>
             <div class="slider" id="beachSlider">
-                <BeachSlider beach={$beaches[index - 1]}></BeachSlider>
                 <BeachSlider beach={$beaches[index]}></BeachSlider>
+                <BeachSlider beach={$beaches[index + 1]}></BeachSlider>
             </div>
         {/if}
     </div>
