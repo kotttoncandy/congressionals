@@ -17,5 +17,17 @@
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"svelte": "^5.56.1",
 		"vite": "^8.0.16"
+	},
+	"dependencies": {
+		"@openverse/api-client": "^0.0.1-a1",
+		"bing-image-scraper": "^0.0.1",
+		"bing-image-search-api-scraper": "^1.0.0",
+		"cheerio": "^1.2.0",
+		"google-image-sr": "^1.0.0",
+		"googlethis": "^1.8.0",
+		"imagefinder": "^0.2.0",
+		"images-scraper": "^7.0.0",
+		"leaflet": "^1.9.4",
+		"maplibre": "^0.0.1-security"
 	}
 }

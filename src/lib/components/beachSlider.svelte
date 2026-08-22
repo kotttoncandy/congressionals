@@ -1,10 +1,10 @@
 <script>
     var coords;
-    var lat = 0;
-    var lon = 0;
+    var lat = $state(0);
+    var lon = $state(0);
     let { beach } = $props();
     let image = $state("");
-
+    import Map from "./map.svelte";
     $effect(() => {
         if ("center" in beach) {
             lat = beach.center.lat;
@@ -48,42 +48,21 @@
 
     async function getImage(name) {
         const response = await fetch(
-            `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(name)}&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&iiurlwidth=800&format=json&origin=*`,
-        );
-        console.log(
-            `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(name)}&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&iiurlwidth=800&format=json&origin=*`,
+            `/api/images?q=${encodeURIComponent(beach.tags.name + ' Hawaii')}`
         );
 
-        const data = await response.json();
-
-        const pages = data.query?.pages;
-
-        if (!pages) {
-            image = "";
-            return;
-        }
-
-        const page = Object.values(pages)[0];
-
-        image = page.imageinfo?.[0]?.thumburl ?? "";
+        let images = await response.json();
+        image = images.thumbnail
     }
 </script>
 
 <article class="beach-card">
+    <Map coords={[lat, lon]}></Map>
     <div class="beachInfo">
         <h5 class="beachName">{beach.tags.name}</h5>
-        <p>
-            Located in: {city}
-        </p>
+        <small>Located in {city}</small>
     </div>
 
-    <div class="imageDiv">
-        {#if image}
-            <img class="beachImage" src={image} alt={beach.tags.name} />
-        {:else}
-            <div aria-busy="true">Loading image...</div>
-        {/if}
-    </div>
 </article>
 
 <style>
@@ -91,13 +70,13 @@
         display: flex;
         width: 100%;
         height: 50dvh;
-        flex-direction: row;
+        flex-direction: column;
         padding: 20px;
         flex-shrink: 0;
         gap: 10px;
         border-radius: 20px;
         justify-content: space-between;
-        background-color: var(--beach-color);
+        background-color: transparent;
     }
     .beachImage {
         max-height: 100%;

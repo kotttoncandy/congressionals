@@ -1,7 +1,7 @@
 <script>
     import { onMount } from "svelte";
     import { trails } from "../lib/trailData";
-    import { beaches } from "../lib/beachData"
+    import { beaches } from "../lib/beachData";
     import SiteHeader from "$lib/components//siteHeader.svelte";
     import MainSlider from "$lib/components//mainSlider.svelte";
     import BeachSlider from "$lib/components/beachSlider.svelte";
@@ -10,14 +10,13 @@
     import { userData } from "$lib/userData";
     var index = $state(0);
     let loading = $state(true);
-    var distances = [
-
-    ]
+    var distances = [];
+    var beachDistances = new Map();
 
     function distanceMiles(lat1, lon1, lat2, lon2) {
         const R = 3958.8; // Earth's radius in miles
 
-        const toRadians = degrees => degrees * Math.PI / 180;
+        const toRadians = (degrees) => (degrees * Math.PI) / 180;
 
         const dLat = toRadians(lat2 - lat1);
         const dLon = toRadians(lon2 - lon1);
@@ -25,8 +24,8 @@
         const a =
             Math.sin(dLat / 2) ** 2 +
             Math.cos(toRadians(lat1)) *
-            Math.cos(toRadians(lat2)) *
-            Math.sin(dLon / 2) ** 2;
+                Math.cos(toRadians(lat2)) *
+                Math.sin(dLon / 2) ** 2;
 
         const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
@@ -36,50 +35,105 @@
     async function getLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition, showError);
-        } else { 
-            alert("location cannot be determined")
+        } else {
+            const res = await fetch("https://ipapi.co/json/");
+            const location = await res.json();
+
+            userData.update((current) => ({
+                ...current,
+                lat: location.latitude,
+                lon: location.longitude,
+            }));
         }
     }
 
     function showPosition(position) {
-        userData.update(current => ({
+        userData.update((current) => ({
             ...current,
             lat: position.coords.latitude,
-            lon: position.coords.longitude
+            lon: position.coords.longitude,
         }));
     }
 
-    function showError() {
-        alert("location cannot be determined")
+    async function showError() {
+        const res = await fetch("https://ipapi.co/json/");
+        const location = await res.json();
+
+        userData.update((current) => ({
+            ...current,
+            lat: location.latitude,
+            lon: location.longitude,
+        }));
     }
 
     async function getTrails() {
         const response = await fetch(`/api/trails`);
         const data = await response.json();
         trails.set(data.data);
-        console.log(data.data)
-        const ISLAND = $trails.filter((trail) => trail.island === "OAHU" && trail.closed === false);
+        console.log(data.data);
+        const ISLAND = $trails.filter(
+            (trail) =>
+                trail.island === "OAHU" &&
+                trail.closed === false &&
+                trail.lengthMiles != null,
+        );
 
         trails.set(ISLAND);
-        $trails.forEach(element => {
+        $trails.forEach((element) => {
             distances[element.idKey] = distanceMiles(
-                element.coords.latitude, element.coords.longitude, 
-                $userData.lat, $userData.lon
-            )   
+                element.coords.latitude,
+                element.coords.longitude,
+                $userData.lat,
+                $userData.lon,
+            );
         });
 
-        const sortByDistance = $trails.sort((a, b) => distances[a.idKey] - distances[b.idKey]);
-        trails.set(sortByDistance)
-        console.log(sortByDistance)
-        getBeaches()
+        const sortByDistance = $trails.sort(
+            (a, b) => distances[a.idKey] - distances[b.idKey],
+        );
+        trails.set(sortByDistance);
+        console.log(sortByDistance);
+        getBeaches();
     }
+
+    function get_coordinates(beach) {
+        if (beach.type == "node") {
+            let lat = beach.lat;
+            let lon = beach.lon;
+            return [lat, lon];
+        } else {
+            let lat = beach.center.lat;
+            let lon = beach.center.lon;
+            return [lat, lon];
+        }
+    }
+
     async function getBeaches() {
         const response = await fetch("/beaches.json");
         const data = await response.json();
-        console.log(data)
+        console.log(data);
         beaches.set(data.elements);
         const ISLAND = $beaches.filter((beach) => beach.island === "OAHU");
+
         beaches.set(ISLAND);
+        $beaches.forEach((beach) => {
+            beachDistances.set(
+                beach.id,
+                distanceMiles(
+                    get_coordinates(beach)[0],
+                    get_coordinates(beach)[1],
+                    $userData.lat,
+                    $userData.lon,
+                ),
+            );
+        });
+        const sortedBeaches = [...$beaches].sort((a, b) => {
+            const distanceA = beachDistances.get(a.id);
+            const distanceB = beachDistances.get(b.id);
+
+            return distanceA - distanceB;
+        });
+        beaches.set(sortedBeaches);
         loading = false;
     }
     onMount(() => {
@@ -91,11 +145,12 @@
 <main id="main">
     <SiteHeader></SiteHeader>
     <div class="mainContent">
-
         {#if loading}
-            <article class="loading" aria-busy="true">Loading trails...</article>
+            <article class="loading" aria-busy="true">
+                Loading trails...
+            </article>
         {:else}
-        <!--
+            <!--
         <form class="searchBar">
             <fieldset role="group">
                 <input
@@ -107,21 +162,25 @@
             </fieldset>
         </form>
         -->
-            <Tracker></Tracker>
+        <form>
+        <fieldset role="group">
+            <input
+            type="search"
+            name="search"
+            placeholder="Find Spots"
+            />
+        </fieldset>
+        </form>
             <h4>Hikes near you:</h4>
             <div class="slider">
                 <MainSlider trail={$trails[index]}></MainSlider>
-                <MainSlider trail={$trails[index+1]}></MainSlider>
-            </div>
-            <div class="slider" id="beachSlider">
+                <MainSlider trail={$trails[index + 1]}></MainSlider>
                 <BeachSlider beach={$beaches[index]}></BeachSlider>
                 <BeachSlider beach={$beaches[index + 1]}></BeachSlider>
             </div>
         {/if}
     </div>
 
-    <div class="gap"></div>
-    <Footer></Footer>
 </main>
 
 <style>
@@ -133,7 +192,7 @@
 
     .slider {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 20px;
         overflow-x: scroll;
     }
@@ -164,7 +223,6 @@
     h4 {
         margin-top: 0;
         margin-bottom: 1rem;
-
     }
     .searchBar {
         border-radius: 20px;
@@ -172,6 +230,4 @@
     #beachSlider {
         margin-bottom: 50px;
     }
-
-
 </style>

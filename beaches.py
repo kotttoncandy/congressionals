@@ -2,10 +2,10 @@ import subprocess
 import json
 
 query = '''[out:json];
-area["name"="Oʻahu"]->.searchArea;
+area["ISO3166-2"="US-HI"]->.searchArea;
 (
-    way["natural"="beach"](area.searchArea);
-    node["natural"="beach"](area.searchArea);
+    nwr["natural"="beach"]["name"](area.searchArea);
+    nwr["leisure"="park"]["name"~"beach", i](area.searchArea);
 );
 out center;'''
 
@@ -20,8 +20,6 @@ result = subprocess.run(
     text=True
 )
 
-print(result.returncode)
-print(result.stdout)
 
 data = json.loads(result.stdout)
 

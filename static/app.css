@@ -3,19 +3,20 @@
     --pico-background-color: white;
     --pico-color: #273338;
     --pico-primary: #273338;
+    --pico-primary-background: black;
+
 
     /* Everything under this until the noted is useless until used */
-    --pico-primary-background: #c1121f;
-    --pico-primary-border: #c1121f;
+    --pico-primary-border: none;
 
-    --pico-primary-hover: #384850;
-    --pico-primary-hover-background: #780000;
-    --pico-primary-hover-border: #780000;
+    --pico-primary-hover: #80A1BA;
+    --pico-primary-hover-background: #80A1BA;
+    --pico-primary-hover-border: #80A1BA;
 
     /* Secondary */
-    --pico-secondary: #669bbc;
-    --pico-secondary-background: #669bbc;
-    --pico-secondary-border: #669bbc;
+    --pico-secondary: #80A1BA;
+    --pico-secondary-background: #80A1BA;
+    --pico-secondary-border: #80A1BA;
 
     --pico-secondary-hover: #003049;
     --pico-secondary-hover-background: #003049;
@@ -24,7 +25,7 @@
 
     /* okay it useful now */
     /* Cards */
-    --pico-card-background-color: #91C4C3;
+    --pico-card-background-color: transparent;
     
     --pico-card-border-color: none;
 
@@ -36,7 +37,7 @@
     --pico-h4-color: #273338;
 
     /* Muted text */
-    --pico-muted-color: #669bbc;
+    --pico-muted-color: #80A1BA;
     --pico-muted-border-color: #669bbc;
 
     /* Niche Colors */
@@ -51,3 +52,4 @@
 i {
   color: var(--pico-color)
 }
+
