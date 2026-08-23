@@ -3,15 +3,16 @@
     import { trails } from "../lib/trailData";
     import { beaches } from "../lib/beachData";
     import SiteHeader from "$lib/components//siteHeader.svelte";
-    import MainSlider from "$lib/components//mainSlider.svelte";
-    import BeachSlider from "$lib/components/beachSlider.svelte";
+    import Trail from "$lib/components/Trail.svelte";
+    import Beach from "$lib/components/Beach.svelte";
     import Footer from "$lib/components/footer.svelte";
     import Tracker from "$lib/components//tracker.svelte";
     import { userData } from "$lib/userData";
+    import { distances } from "$lib/spotDistances";
     var index = $state(0);
     let loading = $state(true);
-    var distances = [];
-    var beachDistances = new Map();
+    const trailDistances = [];
+    const beachDistances = new Map();
 
     function distanceMiles(lat1, lon1, lat2, lon2) {
         const R = 3958.8; // Earth's radius in miles
@@ -67,6 +68,7 @@
     }
 
     async function getTrails() {
+        
         const response = await fetch(`/api/trails`);
         const data = await response.json();
         trails.set(data.data);
@@ -75,17 +77,22 @@
             (trail) =>
                 trail.island === "OAHU" &&
                 trail.closed === false &&
-                trail.lengthMiles != null,
+                trail.lengthMiles != null &&
+                trail.lengthMiles <= $userData.distance,
         );
 
         trails.set(ISLAND);
         $trails.forEach((element) => {
-            distances[element.idKey] = distanceMiles(
+            trailDistances[element.idKey] = distanceMiles(
                 element.coords.latitude,
                 element.coords.longitude,
                 $userData.lat,
                 $userData.lon,
             );
+        });
+
+        distances.update((current) => {
+            trail: trailDistances;
         });
 
         const sortByDistance = $trails.sort(
@@ -109,14 +116,19 @@
     }
 
     async function getBeaches() {
-        const response = await fetch("/beaches.json");
+        const response = await fetch("/beaches.json")
+        const response2 = await fetch("/beachActivities.json");
         const data = await response.json();
-        console.log(data);
-        beaches.set(data.elements);
-        const ISLAND = $beaches.filter((beach) => beach.island === "OAHU");
+        const data2 = await response2.json();
 
-        beaches.set(ISLAND);
-        $beaches.forEach((beach) => {
+
+
+        const ISLAND = data.elements.filter((beach) => beach.island === "OAHU" && data2[beach.id].swimming_safety.score > 40);
+        beaches.update((current) => ({
+            names: ISLAND,
+            data: data2
+        }));
+        $beaches.names.forEach((beach) => {
             beachDistances.set(
                 beach.id,
                 distanceMiles(
@@ -126,14 +138,21 @@
                     $userData.lon,
                 ),
             );
+            distances.update((current) => ({
+                ...current,
+                beach: beachDistances
+            }))
         });
-        const sortedBeaches = [...$beaches].sort((a, b) => {
+        const sortedBeaches = [...$beaches.names].sort((a, b) => {
             const distanceA = beachDistances.get(a.id);
             const distanceB = beachDistances.get(b.id);
 
             return distanceA - distanceB;
         });
-        beaches.set(sortedBeaches);
+        beaches.update((current) => ({
+            ...current,
+            names: sortedBeaches
+        }));
         loading = false;
     }
     onMount(() => {
@@ -146,9 +165,7 @@
     <SiteHeader></SiteHeader>
     <div class="mainContent">
         {#if loading}
-            <article class="loading" aria-busy="true">
-                Loading trails...
-            </article>
+            <article class="loading" aria-busy="true">Loading spots...</article>
         {:else}
             <!--
         <form class="searchBar">
@@ -162,25 +179,26 @@
             </fieldset>
         </form>
         -->
-        <form>
-        <fieldset role="group">
-            <input
-            type="search"
-            name="search"
-            placeholder="Find Spots"
-            />
-        </fieldset>
-        </form>
-            <h4>Hikes near you:</h4>
+            <form>
+                <fieldset role="group">
+                    <input
+                        type="search"
+                        name="search"
+                        placeholder="Find Spots"
+                    />
+                </fieldset>
+            </form>
+            <h4>Spots near you:</h4>
             <div class="slider">
-                <MainSlider trail={$trails[index]}></MainSlider>
-                <MainSlider trail={$trails[index + 1]}></MainSlider>
-                <BeachSlider beach={$beaches[index]}></BeachSlider>
-                <BeachSlider beach={$beaches[index + 1]}></BeachSlider>
+                <Trail trail={$trails[index]}></Trail>
+                <Beach beach={$beaches.names[index]}></Beach>
+                <Trail trail={$trails[index + 2]}></Trail>
+                <Beach beach={$beaches.names[index + 1]}></Beach>
+                <Trail trail={$trails[index + 1]}></Trail>
+                <Beach beach={$beaches.names[index + 2]}></Beach>
             </div>
         {/if}
     </div>
-
 </main>
 
 <style>

@@ -1,3 +1,6 @@
 import { writable } from "svelte/store";
 
-export const beaches = writable([])
+export const beaches = writable({
+    "names": [],
+    "data": []
+})

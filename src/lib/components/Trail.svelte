@@ -13,9 +13,6 @@
         lon = coords.longitude;
         const controller = new AbortController();
         getCity(controller.signal);
-        if (trail?.name) {
-            getImage(trail.name);
-        }
 
         return () => controller.abort();
     });

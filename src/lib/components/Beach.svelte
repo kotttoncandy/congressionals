@@ -5,6 +5,9 @@
     let { beach } = $props();
     let image = $state("");
     import Map from "./map.svelte";
+    import { distances } from "$lib/spotDistances";
+    import { beaches } from "$lib/beachData";
+    let beachData = $beaches.data[beach.id]
     $effect(() => {
         if ("center" in beach) {
             lat = beach.center.lat;
@@ -13,14 +16,11 @@
             lat = beach.lat;
             lon = beach.lon;
         }
+        beachData = $beaches.data[beach.id]
+
 
         const controller = new AbortController();
         getCity(controller.signal);
-
-        if (beach.tags?.name) {
-            getImage(beach.tags.name);
-        }
-
         return () => controller.abort();
     });
 
@@ -46,21 +46,13 @@
         }
     }
 
-    async function getImage(name) {
-        const response = await fetch(
-            `/api/images?q=${encodeURIComponent(beach.tags.name + ' Hawaii')}`
-        );
-
-        let images = await response.json();
-        image = images.thumbnail
-    }
 </script>
 
 <article class="beach-card">
     <Map coords={[lat, lon]}></Map>
     <div class="beachInfo">
         <h5 class="beachName">{beach.tags.name}</h5>
-        <small>Located in {city}</small>
+        <small>Swim Score: {beachData.swimming_safety.score}</small>
     </div>
 
 </article>

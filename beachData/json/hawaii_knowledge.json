@@ -1,0 +1,5671 @@
+{
+  "beaches": {
+    "2834838574": {
+      "name": "Hukilau Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "3630742916": {
+      "name": "5 Graves Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "4422877217": {
+      "name": "Spitting caves",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "5444061201": {
+      "name": "Secret Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "6047197318": {
+      "name": "Cromwell's Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "6873894059": {
+      "name": "Kiowea Beach Park",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "7728877738": {
+      "name": "ʻOloʻupena",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "7728877758": {
+      "name": "Waipū",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "9239163584": {
+      "name": "Ke'ei Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "10314397510": {
+      "name": "One Alii Beach Park",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "10557043709": {
+      "name": "Kaimū Black Sand Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "11221002545": {
+      "name": "Swanzy Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "11225437368": {
+      "name": "Mokulēʻia  Rock Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "11225437369": {
+      "name": "Keālia Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "11225437370": {
+      "name": "Mokulēʻia Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "11293954905": {
+      "name": "Thukkie Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "11293954906": {
+      "name": "Hunakai Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "11293954907": {
+      "name": "Waialae Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "11293954908": {
+      "name": "Kahala Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "11540140829": {
+      "name": "Keokea Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "12107650300": {
+      "name": "Polo Beach East",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "12107674138": {
+      "name": "Polo Beach West",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "12206129715": {
+      "name": "Turtle Bay Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "12206151932": {
+      "name": "Hawaiian Electric Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "13606879032": {
+      "name": "Makapu‘U Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "13959139639": {
+      "name": "Maeaea Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "13959139644": {
+      "name": "Kawailoa Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "13961502725": {
+      "name": "Haleʻiwa Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "13961502727": {
+      "name": "Kaiaka Bay Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "14005628515": {
+      "name": "Pu'uiki Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "14005628516": {
+      "name": "Aweoweo Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "14005628517": {
+      "name": "Makaleha Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "14075933423": {
+      "name": "Koko Kai Beach Mini Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "14075939877": {
+      "name": "Koke'e Beach mini Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "12215433": {
+      "name": "Kea'au Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "12541527": {
+      "name": "Waimea Bay",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "12541972": {
+      "name": "Sunset Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "39447925": {
+      "name": "Mokolii View Point",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "44992151": {
+      "name": "Blacksand Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "44994051": {
+      "name": "Red Sand Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "44994106": {
+      "name": "Hana Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "45054863": {
+      "name": "Big Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "45054906": {
+      "name": "Little Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "45141928": {
+      "name": "Baldwin Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "46502989": {
+      "name": "Hāpuna Beach State Recreation Area",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "95838103": {
+      "name": "Sandy Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "108980119": {
+      "name": "Hapuna Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "112169404": {
+      "name": "Kiahuna Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "112172088": {
+      "name": "Lāwaʻi Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "112440148": {
+      "name": "Hanakapiʻai Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "112440155": {
+      "name": "Keʻe Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "112440160": {
+      "name": "Honopū Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "112440168": {
+      "name": "Kalalau Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "112440704": {
+      "name": "Ha'ena Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "112682438": {
+      "name": "Larsen's Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "117315648": {
+      "name": "Kaimana beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "129264238": {
+      "name": "Ulua Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "129264843": {
+      "name": "Wailea Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "129264997": {
+      "name": "Polo Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "129576962": {
+      "name": "Mokapu Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "129577447": {
+      "name": "Keawakapu Beach South",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "129579250": {
+      "name": "Keawakapu Beach North",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "145181568": {
+      "name": "Lagoon Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "145181929": {
+      "name": "Anaehoomalu Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "146840623": {
+      "name": "Keʻehi Lagoon Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "147229653": {
+      "name": "Hanauma Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Sun-Mon 6:00 am – 4:30 pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "155871587": {
+      "name": "Ka'anapali Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "173089926": {
+      "name": "Kahekili Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "173108269": {
+      "name": "S-Turns Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "173210651": {
+      "name": "Kapalua Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "173540225": {
+      "name": "D.T. Fleming Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "173540226": {
+      "name": "Oneloa Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "174229937": {
+      "name": "Kanaha Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "179741971": {
+      "name": "Ala Moana Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "179741972": {
+      "name": "Magic Island lagoon",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "192241413": {
+      "name": "Haleiwa Alii Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "197335721": {
+      "name": "Kalama Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "198969264": {
+      "name": "Spencer Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "201863713": {
+      "name": "Donkey Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "201863714": {
+      "name": "Honokohau Harbor Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "201863716": {
+      "name": "Kehena Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "202896822": {
+      "name": "Haikioawa Landing",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "203014127": {
+      "name": "Makapuu Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "203015602": {
+      "name": "Lanikai Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "205144888": {
+      "name": "Hulopo‘e Beach",
+      "island": "LANAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "205436631": {
+      "name": "Mokuleia Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "205702364": {
+      "name": "Haleiwa Army Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "205702365": {
+      "name": "Haleiwa Alii Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "205783467": {
+      "name": "Kaiaka Bay Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "209294812": {
+      "name": "Pololu Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "209716687": {
+      "name": "Waimānalo Bay Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "210637459": {
+      "name": "Waialea Bay Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "210637461": {
+      "name": "Waialea Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "211228890": {
+      "name": "Honoli‘i Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "211397231": {
+      "name": "Punalu'u Black Sand Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "218679861": {
+      "name": "Queen Kapi'olani Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "218679862": {
+      "name": "Waikīkī Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "218680183": {
+      "name": "Ala Moana Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "221300288": {
+      "name": "White Plains Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "228845811": {
+      "name": "Ko Olina",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "229240003": {
+      "name": "Salt Pond Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "229841214": {
+      "name": "Waiapua'a",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "229939216": {
+      "name": "Kekaha Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "230281515": {
+      "name": "Hāʻula Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "231777430": {
+      "name": "Mauna Kea Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "231777910": {
+      "name": "Kaluhikaa Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "231777911": {
+      "name": "Mauumae Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "239375653": {
+      "name": "Napili Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "239831563": {
+      "name": "Mauna Lani Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "239951595": {
+      "name": "Kailua Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "239951596": {
+      "name": "Kailua Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "240747547": {
+      "name": "Diamond Head Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "240747548": {
+      "name": "Kuilei Cliffs Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "242771257": {
+      "name": "One‘uli Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "242771263": {
+      "name": "Rocky Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "249472054": {
+      "name": "Makena Landing",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "261307987": {
+      "name": "Kamaole I Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "261307988": {
+      "name": "Kamaole II Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "261307989": {
+      "name": "Kamaole III Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "287216568": {
+      "name": "Baby Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "288216475": {
+      "name": "Slaughter House Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "288995866": {
+      "name": "Hanamaulu Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "289669940": {
+      "name": "Pebbles Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "289676505": {
+      "name": "Magic Sands Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "289688697": {
+      "name": "Makalawena Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "289691193": {
+      "name": "Kua Bay Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "289835171": {
+      "name": "Laupāhoehoe Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "291549314": {
+      "name": "Kūʻau Cove",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "293644256": {
+      "name": "Puaena Point Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "293644258": {
+      "name": "Haleiwa Beach Park Mauka",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "293644266": {
+      "name": "Haleiwa Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "293645402": {
+      "name": "Aweoweo Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "298172593": {
+      "name": "Baldwin Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "298599505": {
+      "name": "Hana Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "298599506": {
+      "name": "Waikoloa Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "308376244": {
+      "name": "Kalepolepo Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "311962211": {
+      "name": "Kamākaʻipō Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "311962758": {
+      "name": "Kaupoa Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "311963391": {
+      "name": "Dixie Maru",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "316429780": {
+      "name": "Chuns Reef Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "320314112": {
+      "name": "Kapukuwahine Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "320314113": {
+      "name": "Kanalukaha Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "320314114": {
+      "name": "Papohaku Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "320549570": {
+      "name": "Kumimi Beach (20 Mile Beach)",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "320729396": {
+      "name": "Kikaua Point Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "327006283": {
+      "name": "Tunnels Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "327011247": {
+      "name": "Nukolii Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "331168080": {
+      "name": "Nonopapa Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "331168933": {
+      "name": "Kauwaha Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "331168934": {
+      "name": "Keawanui Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "331168936": {
+      "name": "Kiʻekiʻe Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "333016719": {
+      "name": "Maluaka Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "333770814": {
+      "name": "Makena Landing Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "340289519": {
+      "name": "Hanakao'o Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "340758318": {
+      "name": "VOR Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "340758605": {
+      "name": "Polo Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "358650609": {
+      "name": "Baby Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "359856134": {
+      "name": "Hoai Bay / Lawai Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "359856164": {
+      "name": "Lawai Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "360100820": {
+      "name": "Polihua Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "364793525": {
+      "name": "Kūhiō Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "366072005": {
+      "name": "Three Tables",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "380432646": {
+      "name": "Pakala Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "380702914": {
+      "name": "Hāʻena Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "386560909": {
+      "name": "'Ai'ōpio Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "386560910": {
+      "name": "Kaelehuluhulu Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "386560911": {
+      "name": "Mahaiula Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "386560912": {
+      "name": "Makolea Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "389298446": {
+      "name": "Kapaa Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "389940955": {
+      "name": "Kalapaki Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "413420356": {
+      "name": "Waimanalo Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "415221480": {
+      "name": "Honokowai Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "436455389": {
+      "name": "Derby's Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "441540468": {
+      "name": "Kapahukapu (Manini Beach)",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "441801193": {
+      "name": "Ke'ei Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "443107867": {
+      "name": "Kōkī Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "443107869": {
+      "name": "Hamoa beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "447039755": {
+      "name": "Sugar Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "447933474": {
+      "name": "Kihei Beach Reserve / Waipuilani Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "449434261": {
+      "name": "Keawakapu I Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "449437360": {
+      "name": "Keawakapu II Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "449443874": {
+      "name": "Ulua Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "449721272": {
+      "name": "Wailea Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "450385894": {
+      "name": "Kamaole Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "451656342": {
+      "name": "Palauea Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "451656343": {
+      "name": "Polo Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "451683154": {
+      "name": "Ka'opala Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "451683155": {
+      "name": "Keka'a Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "451683156": {
+      "name": "Keonenui Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "451683157": {
+      "name": "Punalau Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "451759382": {
+      "name": "Chang's Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "451759384": {
+      "name": "Po'olenalena Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "451759385": {
+      "name": "Po'Olenalena Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "456490970": {
+      "name": "Hookipa Park Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "461622569": {
+      "name": "Kolekole Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "461625170": {
+      "name": "Kealoha Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "461626901": {
+      "name": "Richardson Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "461626902": {
+      "name": "Waiuli Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "461626903": {
+      "name": "Waiolena Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "461626904": {
+      "name": "Onekahakaha Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "461638553": {
+      "name": "Reeds Bay Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "464657989": {
+      "name": "Waioli Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "465331276": {
+      "name": "Black Pot Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "465331284": {
+      "name": "Hanalei Pavilion Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "469797925": {
+      "name": "Alan Davis Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "471291210": {
+      "name": "Pā'ia Bay Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "473522966": {
+      "name": "Kaneohe Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "473905482": {
+      "name": "Honokalaoa Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "496362810": {
+      "name": "Kepuhi Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "500307758": {
+      "name": "Turtle Bay",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "504701462": {
+      "name": "Puuloa Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "509354370": {
+      "name": "Fort DeRussy Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "512873129": {
+      "name": "Ukumehame Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "512878189": {
+      "name": "Puamana Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "532568009": {
+      "name": "Ha'ena Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "536041576": {
+      "name": "Papakōlea Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "545382486": {
+      "name": "Diamond Head Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "554993748": {
+      "name": "Ewa Beach Community Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "557520582": {
+      "name": "White Sands Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "557521081": {
+      "name": "Kahaluu Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "559678216": {
+      "name": "Kaimana Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "583044498": {
+      "name": "Wawaloli Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "583044499": {
+      "name": "Wawaloli Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "583044500": {
+      "name": "Ooma Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "612829713": {
+      "name": "Isaac Hale Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "617085377": {
+      "name": "Black Sand Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "633651201": {
+      "name": "Kaiona Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "642005311": {
+      "name": "Kailua Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "643959836": {
+      "name": "Kokololio Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "650319715": {
+      "name": "Kapilina Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "670927368": {
+      "name": "Honokowai Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "671202863": {
+      "name": "Lē'ahi Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "678708970": {
+      "name": "Keamano Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "678709962": {
+      "name": "Kaʻakuʻu Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "678711674": {
+      "name": "Kamalino Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "687188253": {
+      "name": "Honl's Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "727392624": {
+      "name": "Sunset Beach Neighborhood Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "768098899": {
+      "name": "'Ehukai Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "796367657": {
+      "name": "49 Black Sand Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "800966841": {
+      "name": "Joe Lukela Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "802071555": {
+      "name": "Oneula Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "808597330": {
+      "name": "Holoholokai Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "827891438": {
+      "name": "Nākeikiapua",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "830516795": {
+      "name": "Kumukea Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "842922145": {
+      "name": "Waiehu Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "856027718": {
+      "name": "Kamilo",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "856103051": {
+      "name": "Kaulahao Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "856603197": {
+      "name": "North Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Lifeguard Schedule",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "886504933": {
+      "name": "Wailupe Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "886585788": {
+      "name": "Nimitz Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "887587688": {
+      "name": "Kalepolepo Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "900250532": {
+      "name": "Kahuku Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "900782034": {
+      "name": "Laniloa Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "900782040": {
+      "name": "Temple Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "900791139": {
+      "name": "Kaʻaʻawa Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "900791140": {
+      "name": "Kalaeʻōʻio Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "900791142": {
+      "name": "Kahana Bay Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "900791152": {
+      "name": "Pounders Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "902256344": {
+      "name": "Kaihalulu Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "902256345": {
+      "name": "Turtle Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "902256348": {
+      "name": "Hanaka‘ilio Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "902256349": {
+      "name": "Kauhala",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm (Open 7 days a week from Memorial day to Labor Day. Weekends and holidays the rest of the year.)",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "902370052": {
+      "name": "Moku‘Auia Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "902536680": {
+      "name": "Clissolds Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "902536689": {
+      "name": "Kaipapa‘U Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "902541777": {
+      "name": "Waialee Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "904070560": {
+      "name": "Nanakuli Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "904070566": {
+      "name": "Kahe Point",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "904924436": {
+      "name": "Keaau Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "904924438": {
+      "name": "Mākaha Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "904931357": {
+      "name": "‘Ohiki-lolo Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "904931359": {
+      "name": "Mākua Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "949791732": {
+      "name": "Palauea Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "949791742": {
+      "name": "Po'olenalena Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "996197272": {
+      "name": "Aki's Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1005738039": {
+      "name": "Waimānalo Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1034025792": {
+      "name": "North Paia Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1038847727": {
+      "name": "Waiʻalae Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1041038483": {
+      "name": "Barbers Point Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1087770847": {
+      "name": "Pā'ia Secret Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1090550598": {
+      "name": "Lē'ahi Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1090550600": {
+      "name": "Mākālei Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1090550601": {
+      "name": "Mākālei Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1092511413": {
+      "name": "Kapa'a Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1093022215": {
+      "name": "Lehoʻula Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1102791066": {
+      "name": "Maunalua Bay Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Sun-Mon 6:00 am – 4:30 pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1111820243": {
+      "name": "Kahakuloa Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1144269200": {
+      "name": "Miloli'i Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1152253817": {
+      "name": "Honouli Maloo Bay Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1152253820": {
+      "name": "Halawa Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1188402259": {
+      "name": "Mahukona Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1203844859": {
+      "name": "Mai Poina Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1212406448": {
+      "name": "Private Beach",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1255945874": {
+      "name": "Hickam Harbor Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1256555307": {
+      "name": "Hickam Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1256561089": {
+      "name": "Fort Kamehameha Beach",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1283776092": {
+      "name": "Kahalepōhaku Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1283786657": {
+      "name": "Poʻolau Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1283786662": {
+      "name": "Lighthouse Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1290308666": {
+      "name": "Kaiolohia Beach",
+      "island": "LANAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1290308670": {
+      "name": "Shipwreck Beach",
+      "island": "LANAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1290311243": {
+      "name": "Lōpā Beach",
+      "island": "LANAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1296713307": {
+      "name": "Carlsmith Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 9:30am – 4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1346284947": {
+      "name": "Halapē Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1347694895": {
+      "name": "Kahuwai Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1547590153": {
+      "name": "Koke'e Beach Mini Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1547590421": {
+      "name": "Koko Kai Beach Mini Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1576008": {
+      "name": "Shipwreck Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1576026": {
+      "name": "Poʻipū Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1576027": {
+      "name": "Poʻipū Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1576102": {
+      "name": "Barking Sands Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1578312": {
+      "name": "Lumahaʻi Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1581352": {
+      "name": "Kalihiwai Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1581356": {
+      "name": "Kauapea Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1581357": {
+      "name": "Wyllie's Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1581358": {
+      "name": "Hanalei Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1581476": {
+      "name": "Moloaʻa Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1581478": {
+      "name": "Kahili Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1581479": {
+      "name": "Waiakalua Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1588229": {
+      "name": "Wailua Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "1604572": {
+      "name": "Hideaways Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1604573": {
+      "name": "Pu'u Poa Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1616260": {
+      "name": "'Anini Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "1616261": {
+      "name": "'Anini Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "3524264": {
+      "name": "Duke Paoa Kahanamoku Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "3743762": {
+      "name": "Waipio Beach",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "6750000": {
+      "name": "Kanaha Beach Park",
+      "island": "MAUI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am-4:45pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "9146697": {
+      "name": "Polihale Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "9150554": {
+      "name": "Lydgate Beach Park",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "9155967": {
+      "name": "Kawailoa Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "9155968": {
+      "name": "Gillin's Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "10142543": {
+      "name": "Kawaikui Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "10142588": {
+      "name": "Kuli'ou'ou Beach Park",
+      "island": "OAHU",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "11322184": {
+      "name": "Kawaʻaloa Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8:00 am-6:30pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "11322185": {
+      "name": "Kalani Beach",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "11326704": {
+      "name": "Alapaʻi",
+      "island": "MOLOKAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "11831569": {
+      "name": "Keaukaha Beach Park",
+      "island": "HAWAII",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "14880248": {
+      "name": "Brennecke Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    },
+    "15339763": {
+      "name": "Kekaha Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": true,
+      "lifeguard_schedule": "Mon-Sun, 8am – 6pm",
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": [
+        {
+          "name": "Hawaii Ocean Safety",
+          "url": "https://oceansafety.hawaii.gov/list-of-lifeguarded-beaches/"
+        }
+      ]
+    },
+    "20665220": {
+      "name": "Sealodge Beach",
+      "island": "KAUAI",
+      "activities": [],
+      "lifeguarded": false,
+      "lifeguard_schedule": null,
+      "description": "",
+      "amenities": [],
+      "hazards": [],
+      "sources": []
+    }
+  },
+  "unmatched": [
+    {
+      "id": "2834838574",
+      "name": "Hukilau Beach",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "3630742916",
+      "name": "5 Graves Beach",
+      "island": "MAUI",
+      "best_score": 37.5
+    },
+    {
+      "id": "4422877217",
+      "name": "Spitting caves",
+      "island": "OAHU",
+      "best_score": 43.5
+    },
+    {
+      "id": "5444061201",
+      "name": "Secret Beach",
+      "island": "KAUAI",
+      "best_score": 61.5
+    },
+    {
+      "id": "6047197318",
+      "name": "Cromwell's Beach",
+      "island": "OAHU",
+      "best_score": 44.4
+    },
+    {
+      "id": "6873894059",
+      "name": "Kiowea Beach Park",
+      "island": "MOLOKAI",
+      "best_score": 57.1
+    },
+    {
+      "id": "7728877738",
+      "name": "ʻOloʻupena",
+      "island": "MOLOKAI",
+      "best_score": 53.3
+    },
+    {
+      "id": "7728877758",
+      "name": "Waipū",
+      "island": "MOLOKAI",
+      "best_score": 46.2
+    },
+    {
+      "id": "10314397510",
+      "name": "One Alii Beach Park",
+      "island": "MOLOKAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "10557043709",
+      "name": "Kaimū Black Sand Beach",
+      "island": "HAWAII",
+      "best_score": 57.1
+    },
+    {
+      "id": "11225437368",
+      "name": "Mokulēʻia  Rock Beach",
+      "island": "OAHU",
+      "best_score": 44.4
+    },
+    {
+      "id": "11225437370",
+      "name": "Mokulēʻia Beach",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "11293954905",
+      "name": "Thukkie Beach",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "11293954907",
+      "name": "Waialae Beach",
+      "island": "OAHU",
+      "best_score": 62.5
+    },
+    {
+      "id": "11540140829",
+      "name": "Keokea Beach Park",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "12107650300",
+      "name": "Polo Beach East",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "12107674138",
+      "name": "Polo Beach West",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "12206129715",
+      "name": "Turtle Bay Beach",
+      "island": "OAHU",
+      "best_score": 54.5
+    },
+    {
+      "id": "12206151932",
+      "name": "Hawaiian Electric Beach Park",
+      "island": "OAHU",
+      "best_score": 53.7
+    },
+    {
+      "id": "13959139639",
+      "name": "Maeaea Beach",
+      "island": "OAHU",
+      "best_score": 66.7
+    },
+    {
+      "id": "14005628515",
+      "name": "Pu'uiki Beach",
+      "island": "OAHU",
+      "best_score": 54.5
+    },
+    {
+      "id": "14005628516",
+      "name": "Aweoweo Beach",
+      "island": "OAHU",
+      "best_score": 40.0
+    },
+    {
+      "id": "14075933423",
+      "name": "Koko Kai Beach Mini Park",
+      "island": "OAHU",
+      "best_score": 46.7
+    },
+    {
+      "id": "14075939877",
+      "name": "Koke'e Beach mini Park",
+      "island": "OAHU",
+      "best_score": 47.1
+    },
+    {
+      "id": "39447925",
+      "name": "Mokolii View Point",
+      "island": "OAHU",
+      "best_score": 48.6
+    },
+    {
+      "id": "44992151",
+      "name": "Blacksand Beach",
+      "island": "MAUI",
+      "best_score": 57.1
+    },
+    {
+      "id": "44994051",
+      "name": "Red Sand Beach",
+      "island": "MAUI",
+      "best_score": 61.5
+    },
+    {
+      "id": "45054863",
+      "name": "Big Beach",
+      "island": "MAUI",
+      "best_score": 40.0
+    },
+    {
+      "id": "45054906",
+      "name": "Little Beach",
+      "island": "MAUI",
+      "best_score": 46.2
+    },
+    {
+      "id": "46502989",
+      "name": "Hāpuna Beach State Recreation Area",
+      "island": "HAWAII",
+      "best_score": 48.6
+    },
+    {
+      "id": "112169404",
+      "name": "Kiahuna Beach",
+      "island": "KAUAI",
+      "best_score": 61.5
+    },
+    {
+      "id": "112172088",
+      "name": "Lāwaʻi Beach",
+      "island": "KAUAI",
+      "best_score": 54.5
+    },
+    {
+      "id": "112440148",
+      "name": "Hanakapiʻai Beach",
+      "island": "KAUAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "112440160",
+      "name": "Honopū Beach",
+      "island": "KAUAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "112682438",
+      "name": "Larsen's Beach",
+      "island": "KAUAI",
+      "best_score": 50.0
+    },
+    {
+      "id": "129264238",
+      "name": "Ulua Beach",
+      "island": "MAUI",
+      "best_score": 60.0
+    },
+    {
+      "id": "129264843",
+      "name": "Wailea Beach",
+      "island": "MAUI",
+      "best_score": 66.7
+    },
+    {
+      "id": "129264997",
+      "name": "Polo Beach",
+      "island": "MAUI",
+      "best_score": 46.2
+    },
+    {
+      "id": "129577447",
+      "name": "Keawakapu Beach South",
+      "island": "MAUI",
+      "best_score": 56.2
+    },
+    {
+      "id": "129579250",
+      "name": "Keawakapu Beach North",
+      "island": "MAUI",
+      "best_score": 56.2
+    },
+    {
+      "id": "145181929",
+      "name": "Anaehoomalu Beach",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "146840623",
+      "name": "Keʻehi Lagoon Beach Park",
+      "island": "OAHU",
+      "best_score": 66.7
+    },
+    {
+      "id": "155871587",
+      "name": "Ka'anapali Beach",
+      "island": "MAUI",
+      "best_score": 66.7
+    },
+    {
+      "id": "173089926",
+      "name": "Kahekili Beach",
+      "island": "MAUI",
+      "best_score": 61.5
+    },
+    {
+      "id": "173108269",
+      "name": "S-Turns Beach",
+      "island": "MAUI",
+      "best_score": 66.7
+    },
+    {
+      "id": "173540226",
+      "name": "Oneloa Beach",
+      "island": "MAUI",
+      "best_score": 50.0
+    },
+    {
+      "id": "197335721",
+      "name": "Kalama Beach Park",
+      "island": "OAHU",
+      "best_score": 66.7
+    },
+    {
+      "id": "201863713",
+      "name": "Donkey Beach",
+      "island": "KAUAI",
+      "best_score": 44.4
+    },
+    {
+      "id": "201863714",
+      "name": "Honokohau Harbor Beach",
+      "island": "HAWAII",
+      "best_score": 44.4
+    },
+    {
+      "id": "202896822",
+      "name": "Haikioawa Landing",
+      "island": "MAUI",
+      "best_score": 48.0
+    },
+    {
+      "id": "205144888",
+      "name": "Hulopo‘e Beach",
+      "island": "LANAI",
+      "best_score": 46.2
+    },
+    {
+      "id": "205436631",
+      "name": "Mokuleia Beach Park",
+      "island": "OAHU",
+      "best_score": 57.1
+    },
+    {
+      "id": "209294812",
+      "name": "Pololu Beach",
+      "island": "HAWAII",
+      "best_score": 46.2
+    },
+    {
+      "id": "210637461",
+      "name": "Waialea Beach",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "218679862",
+      "name": "Waikīkī Beach",
+      "island": "OAHU",
+      "best_score": 55.6
+    },
+    {
+      "id": "221300288",
+      "name": "White Plains Beach Park",
+      "island": "OAHU",
+      "best_score": 66.7
+    },
+    {
+      "id": "228845811",
+      "name": "Ko Olina",
+      "island": "OAHU",
+      "best_score": 57.1
+    },
+    {
+      "id": "229841214",
+      "name": "Waiapua'a",
+      "island": "KAUAI",
+      "best_score": 58.8
+    },
+    {
+      "id": "230281515",
+      "name": "Hāʻula Beach",
+      "island": "KAUAI",
+      "best_score": 60.0
+    },
+    {
+      "id": "231777910",
+      "name": "Kaluhikaa Beach",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "231777911",
+      "name": "Mauumae Beach",
+      "island": "HAWAII",
+      "best_score": 57.1
+    },
+    {
+      "id": "240747547",
+      "name": "Diamond Head Beach Park",
+      "island": "OAHU",
+      "best_score": 47.6
+    },
+    {
+      "id": "240747548",
+      "name": "Kuilei Cliffs Beach Park",
+      "island": "OAHU",
+      "best_score": 46.2
+    },
+    {
+      "id": "242771257",
+      "name": "One‘uli Beach",
+      "island": "MAUI",
+      "best_score": 61.5
+    },
+    {
+      "id": "242771263",
+      "name": "Rocky Beach",
+      "island": "MAUI",
+      "best_score": 40.0
+    },
+    {
+      "id": "287216568",
+      "name": "Baby Beach",
+      "island": "MAUI",
+      "best_score": 50.0
+    },
+    {
+      "id": "288216475",
+      "name": "Slaughter House Beach",
+      "island": "MAUI",
+      "best_score": 51.6
+    },
+    {
+      "id": "288995866",
+      "name": "Hanamaulu Beach",
+      "island": "KAUAI",
+      "best_score": 60.0
+    },
+    {
+      "id": "289669940",
+      "name": "Pebbles Beach",
+      "island": "HAWAII",
+      "best_score": 42.9
+    },
+    {
+      "id": "289676505",
+      "name": "Magic Sands Beach",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "289691193",
+      "name": "Kua Bay Beach",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "289835171",
+      "name": "Laupāhoehoe Beach Park",
+      "island": "HAWAII",
+      "best_score": 48.0
+    },
+    {
+      "id": "291549314",
+      "name": "Kūʻau Cove",
+      "island": "MAUI",
+      "best_score": 46.2
+    },
+    {
+      "id": "293644256",
+      "name": "Puaena Point Beach Park",
+      "island": "OAHU",
+      "best_score": 52.2
+    },
+    {
+      "id": "293644258",
+      "name": "Haleiwa Beach Park Mauka",
+      "island": "OAHU",
+      "best_score": 63.6
+    },
+    {
+      "id": "293645402",
+      "name": "Aweoweo Beach Park",
+      "island": "OAHU",
+      "best_score": 40.0
+    },
+    {
+      "id": "298599506",
+      "name": "Waikoloa Beach",
+      "island": "MAUI",
+      "best_score": 58.8
+    },
+    {
+      "id": "308376244",
+      "name": "Kalepolepo Beach Park",
+      "island": "MAUI",
+      "best_score": 52.6
+    },
+    {
+      "id": "311962211",
+      "name": "Kamākaʻipō Beach",
+      "island": "MOLOKAI",
+      "best_score": 57.1
+    },
+    {
+      "id": "311962758",
+      "name": "Kaupoa Beach",
+      "island": "MOLOKAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "311963391",
+      "name": "Dixie Maru",
+      "island": "MOLOKAI",
+      "best_score": 43.8
+    },
+    {
+      "id": "320314112",
+      "name": "Kapukuwahine Beach",
+      "island": "MOLOKAI",
+      "best_score": 52.6
+    },
+    {
+      "id": "320314114",
+      "name": "Papohaku Beach",
+      "island": "MOLOKAI",
+      "best_score": 53.3
+    },
+    {
+      "id": "320549570",
+      "name": "Kumimi Beach (20 Mile Beach)",
+      "island": "MOLOKAI",
+      "best_score": 52.2
+    },
+    {
+      "id": "320729396",
+      "name": "Kikaua Point Beach",
+      "island": "HAWAII",
+      "best_score": 48.3
+    },
+    {
+      "id": "327006283",
+      "name": "Tunnels Beach",
+      "island": "KAUAI",
+      "best_score": 46.2
+    },
+    {
+      "id": "331168080",
+      "name": "Nonopapa Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "best_score": 53.3
+    },
+    {
+      "id": "331168936",
+      "name": "Kiʻekiʻe Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "best_score": 66.7
+    },
+    {
+      "id": "333016719",
+      "name": "Maluaka Beach",
+      "island": "MAUI",
+      "best_score": 61.5
+    },
+    {
+      "id": "340758318",
+      "name": "VOR Beach",
+      "island": "MAUI",
+      "best_score": 28.6
+    },
+    {
+      "id": "340758605",
+      "name": "Polo Beach",
+      "island": "MAUI",
+      "best_score": 46.2
+    },
+    {
+      "id": "358650609",
+      "name": "Baby Beach",
+      "island": "KAUAI",
+      "best_score": 50.0
+    },
+    {
+      "id": "359856134",
+      "name": "Hoai Bay / Lawai Beach",
+      "island": "KAUAI",
+      "best_score": 64.0
+    },
+    {
+      "id": "359856164",
+      "name": "Lawai Beach",
+      "island": "KAUAI",
+      "best_score": 53.3
+    },
+    {
+      "id": "360100820",
+      "name": "Polihua Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "best_score": 50.0
+    },
+    {
+      "id": "364793525",
+      "name": "Kūhiō Beach",
+      "island": "HAWAII",
+      "best_score": 50.0
+    },
+    {
+      "id": "366072005",
+      "name": "Three Tables",
+      "island": "OAHU",
+      "best_score": 48.0
+    },
+    {
+      "id": "380432646",
+      "name": "Pakala Beach",
+      "island": "KAUAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "386560909",
+      "name": "'Ai'ōpio Beach",
+      "island": "HAWAII",
+      "best_score": 60.0
+    },
+    {
+      "id": "386560910",
+      "name": "Kaelehuluhulu Beach",
+      "island": "HAWAII",
+      "best_score": 60.0
+    },
+    {
+      "id": "386560911",
+      "name": "Mahaiula Beach",
+      "island": "HAWAII",
+      "best_score": 62.5
+    },
+    {
+      "id": "389940955",
+      "name": "Kalapaki Beach",
+      "island": "KAUAI",
+      "best_score": 57.1
+    },
+    {
+      "id": "415221480",
+      "name": "Honokowai Beach Park",
+      "island": "MAUI",
+      "best_score": 62.5
+    },
+    {
+      "id": "436455389",
+      "name": "Derby's Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "best_score": 50.0
+    },
+    {
+      "id": "441540468",
+      "name": "Kapahukapu (Manini Beach)",
+      "island": "HAWAII",
+      "best_score": 47.1
+    },
+    {
+      "id": "443107867",
+      "name": "Kōkī Beach",
+      "island": "MAUI",
+      "best_score": 50.0
+    },
+    {
+      "id": "443107869",
+      "name": "Hamoa beach",
+      "island": "MAUI",
+      "best_score": 60.0
+    },
+    {
+      "id": "447039755",
+      "name": "Sugar Beach",
+      "island": "MAUI",
+      "best_score": 40.0
+    },
+    {
+      "id": "447933474",
+      "name": "Kihei Beach Reserve / Waipuilani Park",
+      "island": "MAUI",
+      "best_score": 48.6
+    },
+    {
+      "id": "449434261",
+      "name": "Keawakapu I Beach Park",
+      "island": "MAUI",
+      "best_score": 63.2
+    },
+    {
+      "id": "449437360",
+      "name": "Keawakapu II Beach Park",
+      "island": "MAUI",
+      "best_score": 60.0
+    },
+    {
+      "id": "449443874",
+      "name": "Ulua Beach Park",
+      "island": "MAUI",
+      "best_score": 60.0
+    },
+    {
+      "id": "449721272",
+      "name": "Wailea Beach",
+      "island": "MAUI",
+      "best_score": 66.7
+    },
+    {
+      "id": "451656342",
+      "name": "Palauea Beach",
+      "island": "MAUI",
+      "best_score": 61.5
+    },
+    {
+      "id": "451656343",
+      "name": "Polo Beach Park",
+      "island": "MAUI",
+      "best_score": 46.2
+    },
+    {
+      "id": "451683154",
+      "name": "Ka'opala Beach",
+      "island": "MAUI",
+      "best_score": 66.7
+    },
+    {
+      "id": "451683156",
+      "name": "Keonenui Beach",
+      "island": "MAUI",
+      "best_score": 54.5
+    },
+    {
+      "id": "451759382",
+      "name": "Chang's Beach",
+      "island": "MAUI",
+      "best_score": 54.5
+    },
+    {
+      "id": "451759384",
+      "name": "Po'olenalena Beach",
+      "island": "MAUI",
+      "best_score": 52.6
+    },
+    {
+      "id": "451759385",
+      "name": "Po'Olenalena Beach",
+      "island": "MAUI",
+      "best_score": 52.6
+    },
+    {
+      "id": "461622569",
+      "name": "Kolekole Beach Park",
+      "island": "HAWAII",
+      "best_score": 54.5
+    },
+    {
+      "id": "461626903",
+      "name": "Waiolena Beach Park",
+      "island": "HAWAII",
+      "best_score": 62.5
+    },
+    {
+      "id": "461638553",
+      "name": "Reeds Bay Beach Park",
+      "island": "HAWAII",
+      "best_score": 54.5
+    },
+    {
+      "id": "465331276",
+      "name": "Black Pot Beach Park",
+      "island": "KAUAI",
+      "best_score": 44.4
+    },
+    {
+      "id": "469797925",
+      "name": "Alan Davis Beach",
+      "island": "OAHU",
+      "best_score": 52.6
+    },
+    {
+      "id": "473522966",
+      "name": "Kaneohe Beach Park",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "473905482",
+      "name": "Honokalaoa Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "best_score": 62.5
+    },
+    {
+      "id": "496362810",
+      "name": "Kepuhi Beach",
+      "island": "MOLOKAI",
+      "best_score": 50.0
+    },
+    {
+      "id": "500307758",
+      "name": "Turtle Bay",
+      "island": "OAHU",
+      "best_score": 54.5
+    },
+    {
+      "id": "504701462",
+      "name": "Puuloa Beach Park",
+      "island": "OAHU",
+      "best_score": 66.7
+    },
+    {
+      "id": "509354370",
+      "name": "Fort DeRussy Beach Park",
+      "island": "OAHU",
+      "best_score": 44.4
+    },
+    {
+      "id": "512873129",
+      "name": "Ukumehame Beach Park",
+      "island": "MAUI",
+      "best_score": 53.3
+    },
+    {
+      "id": "512878189",
+      "name": "Puamana Beach Park",
+      "island": "MAUI",
+      "best_score": 62.5
+    },
+    {
+      "id": "536041576",
+      "name": "Papakōlea Beach",
+      "island": "HAWAII",
+      "best_score": 62.5
+    },
+    {
+      "id": "545382486",
+      "name": "Diamond Head Beach Park",
+      "island": "OAHU",
+      "best_score": 47.6
+    },
+    {
+      "id": "554993748",
+      "name": "Ewa Beach Community Park",
+      "island": "OAHU",
+      "best_score": 43.5
+    },
+    {
+      "id": "583044498",
+      "name": "Wawaloli Beach Park",
+      "island": "HAWAII",
+      "best_score": 58.8
+    },
+    {
+      "id": "583044499",
+      "name": "Wawaloli Beach",
+      "island": "HAWAII",
+      "best_score": 58.8
+    },
+    {
+      "id": "583044500",
+      "name": "Ooma Beach",
+      "island": "HAWAII",
+      "best_score": 54.5
+    },
+    {
+      "id": "612829713",
+      "name": "Isaac Hale Beach Park",
+      "island": "HAWAII",
+      "best_score": 53.3
+    },
+    {
+      "id": "617085377",
+      "name": "Black Sand Beach",
+      "island": "HAWAII",
+      "best_score": 55.6
+    },
+    {
+      "id": "633651201",
+      "name": "Kaiona Beach Park",
+      "island": "OAHU",
+      "best_score": 66.7
+    },
+    {
+      "id": "643959836",
+      "name": "Kokololio Beach Park",
+      "island": "OAHU",
+      "best_score": 50.0
+    },
+    {
+      "id": "670927368",
+      "name": "Honokowai Beach Park",
+      "island": "MAUI",
+      "best_score": 62.5
+    },
+    {
+      "id": "671202863",
+      "name": "Lē'ahi Beach Park",
+      "island": "OAHU",
+      "best_score": 50.0
+    },
+    {
+      "id": "678708970",
+      "name": "Keamano Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "best_score": 62.5
+    },
+    {
+      "id": "678711674",
+      "name": "Kamalino Beach",
+      "island": "NOT ON MAIN ISLANDS",
+      "best_score": 61.5
+    },
+    {
+      "id": "687188253",
+      "name": "Honl's Beach",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "796367657",
+      "name": "49 Black Sand Beach",
+      "island": "HAWAII",
+      "best_score": 47.6
+    },
+    {
+      "id": "800966841",
+      "name": "Joe Lukela Beach Park",
+      "island": "OAHU",
+      "best_score": 50.0
+    },
+    {
+      "id": "802071555",
+      "name": "Oneula Beach Park",
+      "island": "OAHU",
+      "best_score": 57.1
+    },
+    {
+      "id": "808597330",
+      "name": "Holoholokai Beach Park",
+      "island": "HAWAII",
+      "best_score": 55.6
+    },
+    {
+      "id": "827891438",
+      "name": "Nākeikiapua",
+      "island": "MOLOKAI",
+      "best_score": 62.5
+    },
+    {
+      "id": "830516795",
+      "name": "Kumukea Beach",
+      "island": "HAWAII",
+      "best_score": 61.5
+    },
+    {
+      "id": "842922145",
+      "name": "Waiehu Beach Park",
+      "island": "MAUI",
+      "best_score": 50.0
+    },
+    {
+      "id": "856027718",
+      "name": "Kamilo",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "886504933",
+      "name": "Wailupe Beach Park",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "886585788",
+      "name": "Nimitz Beach",
+      "island": "OAHU",
+      "best_score": 46.2
+    },
+    {
+      "id": "887587688",
+      "name": "Kalepolepo Beach Park",
+      "island": "MAUI",
+      "best_score": 52.6
+    },
+    {
+      "id": "900782034",
+      "name": "Laniloa Beach",
+      "island": "OAHU",
+      "best_score": 66.7
+    },
+    {
+      "id": "900782040",
+      "name": "Temple Beach",
+      "island": "OAHU",
+      "best_score": 46.2
+    },
+    {
+      "id": "900791139",
+      "name": "Kaʻaʻawa Beach",
+      "island": "OAHU",
+      "best_score": 66.7
+    },
+    {
+      "id": "900791140",
+      "name": "Kalaeʻōʻio Beach",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "900791152",
+      "name": "Pounders Beach",
+      "island": "OAHU",
+      "best_score": 58.8
+    },
+    {
+      "id": "902256345",
+      "name": "Turtle Beach",
+      "island": "OAHU",
+      "best_score": 38.1
+    },
+    {
+      "id": "902370052",
+      "name": "Moku‘Auia Beach",
+      "island": "OAHU",
+      "best_score": 61.5
+    },
+    {
+      "id": "902536680",
+      "name": "Clissolds Beach",
+      "island": "OAHU",
+      "best_score": 36.4
+    },
+    {
+      "id": "902536689",
+      "name": "Kaipapa‘U Beach",
+      "island": "OAHU",
+      "best_score": 57.1
+    },
+    {
+      "id": "902541777",
+      "name": "Waialee Beach",
+      "island": "OAHU",
+      "best_score": 62.5
+    },
+    {
+      "id": "904070566",
+      "name": "Kahe Point",
+      "island": "OAHU",
+      "best_score": 51.9
+    },
+    {
+      "id": "904931357",
+      "name": "‘Ohiki-lolo Beach",
+      "island": "OAHU",
+      "best_score": 47.1
+    },
+    {
+      "id": "904931359",
+      "name": "Mākua Beach",
+      "island": "OAHU",
+      "best_score": 60.0
+    },
+    {
+      "id": "949791732",
+      "name": "Palauea Beach Park",
+      "island": "MAUI",
+      "best_score": 61.5
+    },
+    {
+      "id": "949791742",
+      "name": "Po'olenalena Beach Park",
+      "island": "MAUI",
+      "best_score": 52.6
+    },
+    {
+      "id": "996197272",
+      "name": "Aki's Beach",
+      "island": "OAHU",
+      "best_score": 50.0
+    },
+    {
+      "id": "1034025792",
+      "name": "North Paia Beach",
+      "island": "MAUI",
+      "best_score": 66.7
+    },
+    {
+      "id": "1038847727",
+      "name": "Waiʻalae Beach Park",
+      "island": "OAHU",
+      "best_score": 62.5
+    },
+    {
+      "id": "1041038483",
+      "name": "Barbers Point Beach Park",
+      "island": "OAHU",
+      "best_score": 45.5
+    },
+    {
+      "id": "1087770847",
+      "name": "Pā'ia Secret Beach",
+      "island": "MAUI",
+      "best_score": 48.0
+    },
+    {
+      "id": "1090550598",
+      "name": "Lē'ahi Beach",
+      "island": "OAHU",
+      "best_score": 50.0
+    },
+    {
+      "id": "1090550600",
+      "name": "Mākālei Beach",
+      "island": "OAHU",
+      "best_score": 60.0
+    },
+    {
+      "id": "1090550601",
+      "name": "Mākālei Beach Park",
+      "island": "OAHU",
+      "best_score": 60.0
+    },
+    {
+      "id": "1093022215",
+      "name": "Lehoʻula Beach",
+      "island": "MAUI",
+      "best_score": 61.5
+    },
+    {
+      "id": "1144269200",
+      "name": "Miloli'i Beach Park",
+      "island": "HAWAII",
+      "best_score": 66.7
+    },
+    {
+      "id": "1152253817",
+      "name": "Honouli Maloo Bay Beach",
+      "island": "MOLOKAI",
+      "best_score": 64.3
+    },
+    {
+      "id": "1152253820",
+      "name": "Halawa Beach",
+      "island": "MOLOKAI",
+      "best_score": 57.1
+    },
+    {
+      "id": "1203844859",
+      "name": "Mai Poina Beach Park",
+      "island": "MAUI",
+      "best_score": 57.1
+    },
+    {
+      "id": "1212406448",
+      "name": "Private Beach",
+      "island": "MAUI",
+      "best_score": 44.4
+    },
+    {
+      "id": "1255945874",
+      "name": "Hickam Harbor Beach",
+      "island": "OAHU",
+      "best_score": 41.7
+    },
+    {
+      "id": "1256555307",
+      "name": "Hickam Beach",
+      "island": "OAHU",
+      "best_score": 50.0
+    },
+    {
+      "id": "1256561089",
+      "name": "Fort Kamehameha Beach",
+      "island": "OAHU",
+      "best_score": 53.8
+    },
+    {
+      "id": "1283776092",
+      "name": "Kahalepōhaku Beach",
+      "island": "MOLOKAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "1283786657",
+      "name": "Poʻolau Beach",
+      "island": "MOLOKAI",
+      "best_score": 54.5
+    },
+    {
+      "id": "1283786662",
+      "name": "Lighthouse Beach",
+      "island": "MOLOKAI",
+      "best_score": 46.2
+    },
+    {
+      "id": "1290308666",
+      "name": "Kaiolohia Beach",
+      "island": "LANAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "1290308670",
+      "name": "Shipwreck Beach",
+      "island": "LANAI",
+      "best_score": 50.0
+    },
+    {
+      "id": "1290311243",
+      "name": "Lōpā Beach",
+      "island": "LANAI",
+      "best_score": 28.6
+    },
+    {
+      "id": "1346284947",
+      "name": "Halapē Beach",
+      "island": "HAWAII",
+      "best_score": 60.0
+    },
+    {
+      "id": "1347694895",
+      "name": "Kahuwai Beach",
+      "island": "HAWAII",
+      "best_score": 61.5
+    },
+    {
+      "id": "1547590153",
+      "name": "Koke'e Beach Mini Park",
+      "island": "OAHU",
+      "best_score": 47.1
+    },
+    {
+      "id": "1547590421",
+      "name": "Koko Kai Beach Mini Park",
+      "island": "OAHU",
+      "best_score": 46.7
+    },
+    {
+      "id": "1576008",
+      "name": "Shipwreck Beach",
+      "island": "KAUAI",
+      "best_score": 50.0
+    },
+    {
+      "id": "1576026",
+      "name": "Poʻipū Beach",
+      "island": "KAUAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "1576027",
+      "name": "Poʻipū Beach Park",
+      "island": "KAUAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "1576102",
+      "name": "Barking Sands Beach",
+      "island": "KAUAI",
+      "best_score": 55.6
+    },
+    {
+      "id": "1578312",
+      "name": "Lumahaʻi Beach",
+      "island": "KAUAI",
+      "best_score": 61.5
+    },
+    {
+      "id": "1581352",
+      "name": "Kalihiwai Beach",
+      "island": "KAUAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "1581356",
+      "name": "Kauapea Beach",
+      "island": "KAUAI",
+      "best_score": 61.5
+    },
+    {
+      "id": "1581357",
+      "name": "Wyllie's Beach",
+      "island": "KAUAI",
+      "best_score": 42.9
+    },
+    {
+      "id": "1581476",
+      "name": "Moloaʻa Beach",
+      "island": "KAUAI",
+      "best_score": 53.3
+    },
+    {
+      "id": "1581479",
+      "name": "Waiakalua Beach",
+      "island": "KAUAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "1604572",
+      "name": "Hideaways Beach",
+      "island": "KAUAI",
+      "best_score": 47.1
+    },
+    {
+      "id": "1604573",
+      "name": "Pu'u Poa Beach",
+      "island": "KAUAI",
+      "best_score": 57.1
+    },
+    {
+      "id": "1616260",
+      "name": "'Anini Beach Park",
+      "island": "KAUAI",
+      "best_score": 60.0
+    },
+    {
+      "id": "1616261",
+      "name": "'Anini Beach",
+      "island": "KAUAI",
+      "best_score": 60.0
+    },
+    {
+      "id": "3524264",
+      "name": "Duke Paoa Kahanamoku Beach Park",
+      "island": "OAHU",
+      "best_score": 51.6
+    },
+    {
+      "id": "3743762",
+      "name": "Waipio Beach",
+      "island": "HAWAII",
+      "best_score": 54.5
+    },
+    {
+      "id": "9146697",
+      "name": "Polihale Beach",
+      "island": "KAUAI",
+      "best_score": 57.1
+    },
+    {
+      "id": "9155968",
+      "name": "Gillin's Beach",
+      "island": "KAUAI",
+      "best_score": 50.0
+    },
+    {
+      "id": "10142543",
+      "name": "Kawaikui Beach Park",
+      "island": "OAHU",
+      "best_score": 62.5
+    },
+    {
+      "id": "10142588",
+      "name": "Kuli'ou'ou Beach Park",
+      "island": "OAHU",
+      "best_score": 57.1
+    },
+    {
+      "id": "11322185",
+      "name": "Kalani Beach",
+      "island": "MOLOKAI",
+      "best_score": 66.7
+    },
+    {
+      "id": "11326704",
+      "name": "Alapaʻi",
+      "island": "MOLOKAI",
+      "best_score": 54.5
+    },
+    {
+      "id": "14880248",
+      "name": "Brennecke Beach",
+      "island": "KAUAI",
+      "best_score": 50.0
+    },
+    {
+      "id": "20665220",
+      "name": "Sealodge Beach",
+      "island": "KAUAI",
+      "best_score": 46.2
+    }
+  ]
+}

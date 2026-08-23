@@ -11800,44 +11800,6 @@
     },
     {
       "type": "way",
-      "id": 554993748,
-      "center": {
-        "lat": 21.3143566,
-        "lon": -158.0076155
-      },
-      "nodes": [
-        8417156337,
-        10087568833,
-        5355541367,
-        5355541368,
-        10087567971,
-        10087567972,
-        10087567973,
-        10087567974,
-        10087567975,
-        10087567976,
-        10087567977,
-        10087567978,
-        10087567979,
-        10087567980,
-        10087567981,
-        10087567982,
-        8417156328,
-        8417156337
-      ],
-      "tags": {
-        "leisure": "park",
-        "name": "Ewa Beach Community Park",
-        "operator": "City and County of Honolulu Department of Parks and Recreation",
-        "operator:type": "government",
-        "owner": "City and County of Honolulu",
-        "owner:wikidata": "Q487704",
-        "wikidata": "Q49487786"
-      },
-      "island": "OAHU"
-    },
-    {
-      "type": "way",
       "id": 557520582,
       "center": {
         "lat": 19.5937556,
