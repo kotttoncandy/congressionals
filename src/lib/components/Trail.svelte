@@ -1,5 +1,6 @@
 <script>
     import Map from "./map.svelte";
+    import { userData } from "$lib/userData";
     var coords;
     var lat = $state(0);
     var lon = $state(0);
@@ -39,8 +40,6 @@
         }
     }
 
-
-
     async function getImage(name) {
         const response = await fetch(
             `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(name)}&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&iiurlwidth=800&format=json&origin=*`,
@@ -63,21 +62,37 @@
         image = page.imageinfo?.[0]?.thumburl ?? "";
     }
 
+    function addFav() {
+        let currentFavs = $userData.favorites
+
+        currentFavs = currentFavs.push(trail)
+        console.log(currentFavs)
+
+        userData.update((current => ({
+            ...current,
+            favorites: currentFavs
+        })))
+
+    }
+
 </script>
-<a href="/info?type=hike&id={trail.idKey}">
+
 <article class="trail-card">
     <Map class="map" coords={[lat, lon]} name={trail.name}></Map>
 
     <div class="trailInfo">
-        <h5 class="trailName">{trail.name}</h5>
-        <small>Length: {trail.lengthMiles}mi {trail.dificulty}</small>
+        <a href="/info?type=hike&id={trail.idKey}">
+            <div class="trailBody">
+                <h5 class="trailName">{trail.name}</h5>
+                <small>Length: {trail.lengthMiles}mi {trail.dificulty}</small>
+            </div>
+        </a>
+
+        <button onclick={addFav} id="favoriteButton" aria-label="Favorites">
+            <i class="fa-regular fa-star"></i>
+        </button>
     </div>
-
-
-
 </article>
-
-</a>
 
 <style>
     .trail-card {
@@ -92,13 +107,13 @@
         justify-content: space-between;
         background-color: transparent;
     }
-    .map {
-
+    #favoriteButton {
+        background-color: transparent;
     }
     .trailInfo {
         color: var(--pico-text-color);
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
     }
     .trailInfo * {

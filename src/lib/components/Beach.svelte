@@ -8,6 +8,8 @@
     import { distances } from "$lib/spotDistances";
     import { beaches } from "$lib/beachData";
     let beachData = $beaches.data[beach.id]
+    const clamp = (val, min, max) => Math.min(Math.max(val, min), max);
+
     $effect(() => {
         if ("center" in beach) {
             lat = beach.center.lat;
@@ -52,7 +54,7 @@
     <Map coords={[lat, lon]}></Map>
     <div class="beachInfo">
         <h5 class="beachName">{beach.tags.name}</h5>
-        <small>Swim Score: {beachData.swimming_safety.score}</small>
+        <small>Swim Score: {clamp(beachData.swimming_safety.score + 50, -100, 100)}</small>
     </div>
 
 </article>

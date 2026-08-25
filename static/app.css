@@ -39,17 +39,15 @@
     /* Muted text */
     --pico-muted-color: #80A1BA;
     --pico-muted-border-color: #669bbc;
-
     /* Niche Colors */
     --hike-color: #2B5748;
     --hike-text-color: #9CB080;
     --beach-color: #80A1BA;
     --beach-text-color: rgb(57, 61, 91);
     --footer-background-color: #E3F2FD;
-
+    --pico-border-radius: 20px
 }
 
 i {
   color: var(--pico-color)
 }
-
