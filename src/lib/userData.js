@@ -9,5 +9,6 @@ export const userData = writable({
         "swimming"
     ],
     distance: 4,
-    swimSafety: 20
+    swimSafety: 20,
+    favorites: []
 })
