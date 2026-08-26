@@ -18,7 +18,7 @@
 
     .bottom-nav {
         position: fixed;
-        bottom: 0;
+        bottom: 0.5rem;
         left: 0;
         width: 100%;
         padding: 0.5rem;

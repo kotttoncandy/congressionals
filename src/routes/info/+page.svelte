@@ -5,6 +5,8 @@
 
     const type = page.url.searchParams.get('type');
     const id = page.url.searchParams.get('id');
+    const name = page.url.searchParams.get('name');
+
     let details = $state();
     let loaded = $state(false)
 
@@ -22,10 +24,12 @@
 </script>
 
 <main class="infoPage">
+    <h1 class="trailName">{name}</h1>
     {#if !loaded}
-        <h1 aria-busy="true">Loading</h1>
+    
+        <h5 aria-busy="true">Loading</h5>
     {:else}
-        <h1>{details.name}</h1>
+        
         <div class="body">
             <article>
                 {details.description}
@@ -44,5 +48,9 @@
     .body {
         display: flex;
 
+    }
+
+    .trailName {
+        padding-top: 20px;
     }
 </style>

@@ -123,7 +123,7 @@
 
 
 
-        const ISLAND = data.elements.filter((beach) => beach.island === "OAHU" && data2[beach.id].swimming_safety.score > 40);
+        const ISLAND = data.elements.filter((beach) => beach.island === $userData.island.toUpperCase() && data2[beach.id].swimming_safety.score > $userData.swimSafety);
         beaches.update((current) => ({
             names: ISLAND,
             data: data2
@@ -156,8 +156,14 @@
         loading = false;
     }
     onMount(() => {
-        getTrails();
-        getLocation();
+        if ($beaches.names.length > 0) {
+            loading = false
+
+        } else {
+            getTrails();
+            getLocation();
+        }
+        
     });
 </script>
 
@@ -179,7 +185,7 @@
             </fieldset>
         </form>
         -->
-            <form>
+            <form class="findSpots">
                 <fieldset role="group">
                     <input
                         type="search"
@@ -242,10 +248,10 @@
         margin-top: 0;
         margin-bottom: 1rem;
     }
-    .searchBar {
-        border-radius: 20px;
-    }
     #beachSlider {
         margin-bottom: 50px;
+    }
+    .findSpots {
+        view-transition-name: findSpots;
     }
 </style>

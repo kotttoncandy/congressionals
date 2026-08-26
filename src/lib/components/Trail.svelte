@@ -64,7 +64,7 @@
     }
 
 </script>
-<a href="/info?type=hike&id={trail.idKey}">
+<a href="/info?type=hike&id={trail.idKey}&name={trail.name}">
 <article class="trail-card">
     <Map class="map" coords={[lat, lon]} name={trail.name}></Map>
 

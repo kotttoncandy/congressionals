@@ -1,6 +1,6 @@
 <header class="header">
     <div>
-        <h1>hey cutie!</h1>
+        <h1 class="pageTitle">hey cutie!</h1>
         <small>lets explore shall we</small>
     </div>
     

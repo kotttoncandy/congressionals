@@ -23,6 +23,8 @@
         getCity(controller.signal);
         return () => controller.abort();
     });
+    const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+
 
     let city = $state("");
     async function getCity(signal) {
@@ -52,7 +54,7 @@
     <Map coords={[lat, lon]}></Map>
     <div class="beachInfo">
         <h5 class="beachName">{beach.tags.name}</h5>
-        <small>Swim Score: {beachData.swimming_safety.score}</small>
+        <small>Swim Score: {clamp(beachData.swimming_safety.score * 2, -100, 100)}</small>
     </div>
 
 </article>
