@@ -7,8 +7,12 @@
     import Map from "./map.svelte";
     import { distances } from "$lib/spotDistances";
     import { beaches } from "$lib/beachData";
-    let beachData = $beaches.data[beach.id]
+    import { userData } from "$lib/userData";
+    let beachData = $beaches.data[beach.id];
     const clamp = (val, min, max) => Math.min(Math.max(val, min), max);
+    let isInFavs = $state(
+        $userData.favBeach.some((t) => t.name === beach.name),
+    );
 
     $effect(() => {
         if ("center" in beach) {
@@ -18,14 +22,12 @@
             lat = beach.lat;
             lon = beach.lon;
         }
-        beachData = $beaches.data[beach.id]
-
+        beachData = $beaches.data[beach.id];
 
         const controller = new AbortController();
         getCity(controller.signal);
         return () => controller.abort();
     });
-
 
     let city = $state("");
     async function getCity(signal) {
@@ -49,15 +51,42 @@
         }
     }
 
+    function addFav() {
+
+        if (!isInFavs) {
+            userData.update((current) => ({
+                ...current,
+                favBeach: [...current.favBeach, beach],
+            }));
+        }
+        console.log($userData.favBeach)
+        isInFavs = true;
+
+    }
 </script>
 
 <article class="beach-card">
     <Map coords={[lat, lon]}></Map>
     <div class="beachInfo">
-        <h5 class="beachName">{beach.tags.name}</h5>
-        <small>Swim Score: {clamp(beachData.swimming_safety.score + 50, -100, 100)}</small>
-    </div>
 
+        <div>
+            <h5 class="beachName">{beach.tags.name}</h5>
+            <small
+                >Swim Score: {clamp(
+                    beachData.swimming_safety.score + 50,
+                    -100,
+                    100,
+                )}</small
+            >
+        </div>
+        <button onclick={addFav} id="favoriteButton" aria-label="Favorites">
+            {#if !isInFavs}
+                <i class="fa-regular fa-star"></i>
+            {:else}
+                <i class="fa-regular fa-star enabled"></i>
+            {/if}
+        </button>
+    </div>
 </article>
 
 <style>
@@ -84,9 +113,15 @@
     }
     .beachInfo {
         color: var(--beach-text-color);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .beachInfo * {
         color: inherit;
+    }
+    #favoriteButton {
+        background-color: transparent;
     }
 </style>

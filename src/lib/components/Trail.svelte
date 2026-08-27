@@ -7,6 +7,7 @@
     let { trail } = $props();
     let image = $state("");
     let description = $state("");
+    let isInFavs = $state($userData.favTrails.some(t => t.name === trail.name))
 
     $effect(() => {
         coords = trail.coords;
@@ -63,15 +64,17 @@
     }
 
     function addFav() {
-        let currentFavs = $userData.favorites
+        console.log(isInFavs)
+        if (!isInFavs) {
 
-        currentFavs = currentFavs.push(trail)
-        console.log(currentFavs)
+            userData.update((current => ({
+                ...current,
+                favTrails: [...current.favTrails, trail]
+            })))
+        }
 
-        userData.update((current => ({
-            ...current,
-            favorites: currentFavs
-        })))
+        isInFavs = true
+
 
     }
 
@@ -88,7 +91,12 @@
         </a>
 
         <button onclick={addFav} id="favoriteButton" aria-label="Favorites">
-            <i class="fa-regular fa-star"></i>
+            {#if !isInFavs}
+                <i class="fa-regular fa-star"></i>
+            {:else}
+                <i class="fa-regular fa-star enabled"></i>
+
+            {/if}
         </button>
     </div>
 </article>
@@ -129,5 +137,9 @@
     .description {
         overflow-y: scroll;
         max-height: 80%;
+    }
+
+    .enabled {
+        color: yellow
     }
 </style>

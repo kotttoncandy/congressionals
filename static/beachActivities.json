@@ -161,8 +161,8 @@
     "island": "OAHU",
     "activities": "Photography, Sunset watching, Beach walking, Wildlife watching",
     "swimming_safety": {
-      "status": "safe",
-      "score": 7,
+      "status": "unsafe",
+      "score": -50,
       "safe_score": 7,
       "unsafe_score": 0,
       "conditional_score": 0,
