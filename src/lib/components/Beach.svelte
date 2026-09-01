@@ -11,7 +11,7 @@
     let beachData = $beaches.data[beach.id];
     const clamp = (val, min, max) => Math.min(Math.max(val, min), max);
     let isInFavs = $state(
-        $userData.favBeach.some((t) => t.name === beach.name),
+        $userData.favBeach.some((t) => t.id === beach.id),
     );
 
     $effect(() => {
@@ -58,9 +58,18 @@
                 ...current,
                 favBeach: [...current.favBeach, beach],
             }));
+            isInFavs = true;
+
+        } else {
+            const updatedList = $userData.favBeach.filter(item => item !== beach);
+
+            userData.update((current) => ({
+                ...current,
+                favBeach: updatedList,
+            }));
+            console.log($userData.favBeach)
+            isInFavs = false
         }
-        console.log($userData.favBeach)
-        isInFavs = true;
 
     }
 </script>
@@ -123,5 +132,9 @@
     }
     #favoriteButton {
         background-color: transparent;
+    }
+
+    .enabled {
+        color: yellow
     }
 </style>

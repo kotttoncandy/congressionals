@@ -80,18 +80,6 @@
     },
     {
       "type": "node",
-      "id": 7728877738,
-      "lat": 21.1625218,
-      "lon": -156.856978,
-      "tags": {
-        "name": "ʻOloʻupena",
-        "natural": "beach",
-        "wikidata": "Q49325403"
-      },
-      "island": "MOLOKAI"
-    },
-    {
-      "type": "node",
       "id": 7728877758,
       "lat": 21.1619615,
       "lon": -156.8660116,

@@ -71,9 +71,18 @@
                 ...current,
                 favTrails: [...current.favTrails, trail]
             })))
+            isInFavs = true
+
+        } else {
+            const updatedList = $userData.favTrails.filter(item => item !== trail);
+
+            userData.update((current) => ({
+                ...current,
+                favTrails: updatedList,
+            }));
+            isInFavs = false
         }
 
-        isInFavs = true
 
 
     }
