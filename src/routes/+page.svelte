@@ -9,6 +9,8 @@
     import Tracker from "$lib/components//tracker.svelte";
     import { userData } from "$lib/userData";
     import { distances } from "$lib/spotDistances";
+    import { goto } from '$app/navigation';
+
     var index = $state(0);
     let loading = $state(true);
     const trailDistances = [];
@@ -165,6 +167,10 @@
         }
         
     });
+
+    function changePage() {
+        goto("search");
+    }
 </script>
 
 <main id="main">
@@ -185,7 +191,7 @@
             </fieldset>
         </form>
         -->
-            <form class="findSpots">
+            <form on:click={changePage} class="findSpots">
                 <fieldset role="group">
                     <input
                         type="search"
@@ -196,12 +202,12 @@
             </form>
             <h4>Spots near you:</h4>
             <div class="slider">
-                <Trail trail={$trails[index]}></Trail>
-                <Beach beach={$beaches.names[index]}></Beach>
-                <Trail trail={$trails[index + 2]}></Trail>
-                <Beach beach={$beaches.names[index + 1]}></Beach>
-                <Trail trail={$trails[index + 1]}></Trail>
-                <Beach beach={$beaches.names[index + 2]}></Beach>
+                <Trail trail={$trails[Math.floor(Math.random() * $trails.length)]}></Trail>
+                <Beach beach={$beaches.names[Math.floor(Math.random() * $beaches.names.length)]}></Beach>
+                <Trail trail={$trails[Math.floor(Math.random() * $trails.length)]}></Trail>
+                <Beach beach={$beaches.names[Math.floor(Math.random() * $beaches.names.length)]}></Beach>
+                <Trail trail={$trails[Math.floor(Math.random() * $trails.length)]}></Trail>
+                <Beach beach={$beaches.names[Math.floor(Math.random() * $beaches.names.length)]}></Beach>
             </div>
         {/if}
     </div>

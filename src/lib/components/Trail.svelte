@@ -14,12 +14,12 @@
         lat = coords.latitude;
         lon = coords.longitude;
         const controller = new AbortController();
-        getCity(controller.signal);
 
         return () => controller.abort();
     });
 
     let city = $state("");
+    /*
     async function getCity(signal) {
         try {
             var url = `https://geocode.maps.co/reverse?lat=${lat}&lon=${lon}&api_key=6a8222ab2ccce825459342ktlc36bca&format=json`;
@@ -40,7 +40,7 @@
             console.log(err);
         }
     }
-
+*/
     async function getImage(name) {
         const response = await fetch(
             `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(name)}&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&iiurlwidth=800&format=json&origin=*`,
