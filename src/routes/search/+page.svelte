@@ -36,7 +36,7 @@
 </script>
 
 <main>
-    <h1 style="padding-top: 20px;" class="pageTitle">Seach Away!</h1>
+    <h1 style="padding-top: 20px;" class="pageTitle">Search Away!</h1>
     <form class="findSpots">
         <fieldset role="group">
             <input bind:value={query} type="search" name="search" placeholder="Find Spots" autofocus />
@@ -52,8 +52,6 @@
             {#each beaches.filter((beach) => beach.tags.name.toLowerCase().includes(query.toLowerCase())) as beach}
                 <Beach beach={beach}></Beach>
             {/each}        
-        {:else}
-            <h4>Type at least 2 characters to search</h4>
         {/if}
 
     {/if}
