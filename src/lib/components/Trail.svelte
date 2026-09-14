@@ -1,6 +1,7 @@
 <script>
     import Map from "./map.svelte";
     import { userData } from "$lib/userData";
+    import {saveData} from "$lib/saveData.js";
     var coords;
     var lat = $state(0);
     var lon = $state(0);
@@ -82,7 +83,7 @@
             }));
             isInFavs = false
         }
-
+        saveData();
 
 
     }

@@ -2,12 +2,14 @@
     import Footer from "$lib/components/footer.svelte";
     import SiteHeader from "$lib/components/siteHeader.svelte";
     import { onMount } from "svelte";
+    import saveData from "$lib/saveData.js";
     let trails = $state();
     let beaches = $state();
     let query = $state("");
     let loaded = $state(false);
     import Beach from "$lib/components/Beach.svelte";
     import Trail from "$lib/components/Trail.svelte";
+    import { get } from "svelte/store";
     async function getTrails() {
         
         const response = await fetch(`/api/trails`);
@@ -32,6 +34,12 @@
     onMount(() => {
         getTrails();
     });
+
+    function setUserData() {
+        if (localStorage.getItem("userData")) {
+            userData = localStorage.getItem("userData");
+        }
+    }
 
 </script>
 

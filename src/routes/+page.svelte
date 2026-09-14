@@ -11,6 +11,8 @@
     import { distances } from "$lib/spotDistances";
     import { goto } from '$app/navigation';
 
+    import {saveData} from "$lib/saveData.js";
+
     var index = $state(0);
     let loading = $state(true);
     const trailDistances = [];
@@ -105,6 +107,13 @@
         getBeaches();
     }
 
+    function setUserData() {
+        if (localStorage.getItem("userData")) {
+            $userData = JSON.parse(localStorage.getItem("userData"));
+            console.log($userData)
+        }
+    }
+
     function get_coordinates(beach) {
         if (beach.type == "node") {
             let lat = beach.lat;
@@ -166,6 +175,7 @@
             getLocation();
         }
         
+        setUserData()
     });
 
     function changePage() {
