@@ -3,6 +3,19 @@
     import Trail from "$lib/components/Trail.svelte";
     import Beach from "$lib/components/Beach.svelte";
     import { userData } from "$lib/userData";
+    import { beaches }  from "$lib/beachData.js";
+    let loaded = $state(false);
+    let previous = $beaches
+    beaches.subscribe((value) => {
+        if (value != previous) {
+            previous = value;
+            loaded = true
+        }
+    })
+
+    if ($beaches.names.length > 0) {
+        loaded = true
+    }
     
 </script>
 
@@ -15,16 +28,20 @@
 
     </header>
     <div class="favDIv">
-        {#if $userData.favTrails.length == 0 && $userData.favBeach.length == 0 }
+        {#if $userData.favTrails.length == 0 && $userData.favBeach.length == 0}
             <h3>no favs at this moment</h3>
         {:else}
             {#each $userData.favTrails as item}
                 <Trail trail={item}></Trail>
             {/each}
 
-            {#each $userData.favBeach as item}
-                <Beach beach={item}></Beach>
-            {/each}
+            {#if loaded}
+
+                {#each $userData.favBeach as item}
+                    <Beach beach={item}></Beach>
+                {/each}
+
+            {/if}
         {/if}
     </div>
 </main>

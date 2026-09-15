@@ -34,11 +34,7 @@
         getTrails();
     });
 
-    function setUserData() {
-        if (localStorage.getItem("userData")) {
-            userData = localStorage.getItem("userData");
-        }
-    }
+
 
 </script>
 
@@ -52,7 +48,7 @@
 
     {#if loaded}
         {#if query.length >= 2}
-            {#each trails.filter((trail) => trail.name.toLowerCase().includes(query.toLowerCase())) as trail}
+            {#each trails.filter((trail) => trail.name.toLowerCase().includes(query.toLowerCase()) || trail.island.toLowerCase().includes(query.toLowerCase())) as trail}
                 <Trail trail={trail}></Trail>
                 
             {/each}

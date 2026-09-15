@@ -110,6 +110,7 @@
         if (localStorage.getItem("userData")) {
             userData.set(JSON.parse(localStorage.getItem("userData")));
         }
+
     }
 
     function get_coordinates(beach) {

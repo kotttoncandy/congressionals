@@ -509,7 +509,6 @@
 
     const type = page.url.searchParams.get('type');
     const id = page.url.searchParams.get('id');
-    const name = page.url.searchParams.get('name');
 
     let details = $state();
     let loaded = $state(false)
@@ -517,7 +516,6 @@
     async function getDetails() {
         const response = await fetch(`/api/trails?trail=${id}`);
         const data = await response.json();
-        console.log(data);
         details = data.data;
         loaded = true
 
@@ -528,11 +526,12 @@
 </script>
 
 <main class="infoPage">
-    <h1 class="trailName">{name}</h1>
     {#if !loaded}
     
-        <h5 aria-busy="true">Loading</h5>
+        <h1 class="trailName" aria-busy="true">Loading</h1>
     {:else}
+    <h1 class="trailName">{details.name}</h1>
+
         
         <div class="body">
             <article>
@@ -541,12 +540,20 @@
             <article>
             <h3>More Details</h3>
             <ul>
-            {#each details.commercialActivitys as item}
-              <li>{item.activity}</li>
-            {/each}
-              <li>Length: {details.lengthMiles}mi</li>
+              {#each details.commercialActivitys as item}
+                <li>{item.activity}</li>
+              {/each}
+                <li>Length: {details.lengthMiles}mi</li>
             </ul>
+
             </article>
+
+            {#each details.sections as item}
+                <article>
+                    <h3>{item.title}</h3>
+                    <p class="preserve-breaks">{item.body}</p>
+                </article>
+            {/each}
         </div>
     {/if}
 </main>
@@ -566,4 +573,8 @@
     .trailName {
         padding-top: 20px;
     }
+
+  .preserve-breaks {
+    white-space: pre-line; /* Or 'pre-wrap' if you want to preserve all spaces */
+  }
 </style>
