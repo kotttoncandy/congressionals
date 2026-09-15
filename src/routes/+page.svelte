@@ -11,7 +11,6 @@
     import { distances } from "$lib/spotDistances";
     import { goto } from '$app/navigation';
 
-    import {saveData} from "$lib/saveData.js";
 
     var index = $state(0);
     let loading = $state(true);
@@ -109,8 +108,7 @@
 
     function setUserData() {
         if (localStorage.getItem("userData")) {
-            $userData = JSON.parse(localStorage.getItem("userData"));
-            console.log($userData)
+            userData.set(JSON.parse(localStorage.getItem("userData")));
         }
     }
 

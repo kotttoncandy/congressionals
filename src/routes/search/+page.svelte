@@ -2,7 +2,6 @@
     import Footer from "$lib/components/footer.svelte";
     import SiteHeader from "$lib/components/siteHeader.svelte";
     import { onMount } from "svelte";
-    import saveData from "$lib/saveData.js";
     let trails = $state();
     let beaches = $state();
     let query = $state("");

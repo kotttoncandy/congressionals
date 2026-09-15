@@ -8,7 +8,6 @@
     import { distances } from "$lib/spotDistances";
     import { beaches } from "$lib/beachData";
     import { userData } from "$lib/userData";
-    import {saveData} from "$lib/saveData.js";
 
     let beachData = $beaches.data[beach.id];
     const clamp = (val, min, max) => Math.min(Math.max(val, min), max);
@@ -72,7 +71,6 @@
             console.log($userData.favBeach)
             isInFavs = false
         }
-        saveData();
 
     }
 </script>

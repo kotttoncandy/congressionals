@@ -2,8 +2,9 @@
 	import { onNavigate } from '$app/navigation';
 	import favicon from '$lib/assets/favicon.svg';
 	import Footer from '$lib/components/footer.svelte';
+	import { userData } from "$lib/userData.js";
 	let { children } = $props();
-
+	let previous = $userData;
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -14,6 +15,15 @@
 				await navigation.complete;
 			});
 		});
+	});
+
+	userData.subscribe((value) => {
+		if (value != previous) {
+			previous = value;
+			localStorage.setItem("userData", JSON.stringify(value));
+			console.log(value.favTrails)
+		}
+
 	});
 
 </script>
