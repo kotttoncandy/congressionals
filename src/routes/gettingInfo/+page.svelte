@@ -19,10 +19,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         height: 100%;
         overflow-y: auto;
         flex-shrink: 0;
+        height: 94vh;
+        gap: 2rem
     }
 
     h1 {
@@ -35,7 +36,6 @@
 
     .title {
         text-align: center;
-        position: sticky;
         width: 100%;
         height: 100%;
         display: flex;
@@ -43,6 +43,7 @@
         align-items: center;
         justify-content: center;
         flex-shrink: 0;
+        position: sticky;
         
     }
 
@@ -52,6 +53,9 @@
         height: 100%;
         width: 100%;
         flex-shrink: 0;
+        padding: 0 1rem;
+        justify-content: center;
+        align-content: center;
     }
 
 </style>
