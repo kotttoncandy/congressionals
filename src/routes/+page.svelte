@@ -109,6 +109,9 @@
     function setUserData() {
         if (localStorage.getItem("userData")) {
             userData.set(JSON.parse(localStorage.getItem("userData")));
+        } else {
+            goto("gettingInfo");
+
         }
 
     }
@@ -133,7 +136,7 @@
 
 
 
-        const ISLAND = data.elements.filter((beach) => beach.island === $userData.island.toUpperCase() && data2[beach.id].swimming_safety.score > $userData.swimSafety);
+        const ISLAND = data.elements.filter((beach) => data2[beach.id].swimming_safety.score > $userData.swimSafety);
         beaches.update((current) => ({
             names: ISLAND,
             data: data2

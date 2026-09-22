@@ -9,7 +9,12 @@
 	let previous = $userData;
     const beachDistances = new Map();
     import { distances } from "$lib/spotDistances";
-	
+	import { page } from '$app/stores';
+    let currentUrl = $state($page.url.pathname);
+    page.subscribe((value) => {
+        currentUrl = value.url.pathname;
+    });
+
 
     function get_coordinates(beach) {
         if (beach.type == "node") {
@@ -129,8 +134,10 @@
 	<main class="mainApp">
 		{@render children()}
 	</main>
-	
-	<Footer></Footer>
+
+    {#if currentUrl !== "/gettingInfo"}
+        <Footer></Footer>
+    {/if}
 </div>
 
 

@@ -30,7 +30,7 @@
             swimSafety: userInfo[2],
             distance: userInfo[3]
         }));
-        goto("");
+        goto("/");
 
         // You can send this data to a server or store it as needed
     }
@@ -41,20 +41,23 @@
     onMount(() => {
         console.log('Getting Info Page Mounted');
 
-        const boxes = document.querySelectorAll('.question');
+        const boxes = document.querySelectorAll('.question-input');
         console.log(boxes);
 
         boxes.forEach((element) => {
-            element.addEventListener('submit', () => {
-                container.scrollTo({
-                    top: element.offsetTop,
-                    behavior: 'smooth'
-                });
-                console.log("wasd")
-            });
+            element.addEventListener('submit', () => scrollNext());
         });
     });
 
+
+    function scrollNext() {
+        if (container) {
+            container.scrollBy({
+                top: window.innerHeight,
+                behavior: 'smooth'
+            });
+        }
+    }
 </script>
 
 
@@ -68,32 +71,54 @@
 
     <div class="question">
         <h3>what is your name ?</h3>
-        <input type="text" placeholder="your name" class="question-input" bind:value={name}/>
+        <form action="" class="question-input">
+            <input type="text" placeholder="your name"  bind:value={name}/>
+            <button type="submit" onclick={scrollNext}>
+                <h3>next</h3>
+            </button>
+        </form>
     </div>
 
     <div class="question">
         <h3>what island are you on ?</h3>
-        <select class="question-input" bind:value={island}>
+        <form action="" class="question-input">
+            <select  bind:value={island}>
 
-            <option value="">Select your island</option>
-            <option value="island1">Big Island</option>
-            <option value="island2">Maui</option>
-            <option value="island3">Molokai</option>
-            <option value="island4">Lanai</option>
-            <option value="island5">Oahu</option>
-            <option value="island6">Kauai</option>
+                <option value="">Select your island</option>
+                <option value="island1">Big Island</option>
+                <option value="island2">Maui</option>
+                <option value="island3">Molokai</option>
+                <option value="island4">Lanai</option>
+                <option value="island5">Oahu</option>
+                <option value="island6">Kauai</option>
 
-        </select>
+            </select>
+            <button type="submit" onclick={scrollNext}>
+                <h3>next</h3>
+            </button>
+        </form>
+
     </div>
 
     <div class="question">
         <h3>from 0 - 10 how safe do u want beaches ?</h3>
-        <input type="range" placeholder="your rating" class="question-input" min=0 max=10 bind:value={beachSafety}/>
+        <form action="" class="question-input">
+
+            <input type="range" placeholder="your rating" class="question-box" min=0 max=10 bind:value={beachSafety}/>
+                    <button type="submit" onclick={scrollNext}>
+                <h3>next</h3>
+            </button>
+        </form>
     </div>
 
     <div class="question">
         <h3>what would be the max trail length for you be ?</h3>
-        <input type="range" placeholder="your rating" class="question-input" min=0 max=7 bind:value={trailLength}/>
+        <form action="" class="question-input">
+            <input type="range" placeholder="your rating" class="question-box" min=0 max=7 bind:value={trailLength}/>
+            <button type="submit" onclick={scrollNext}>
+                <h3>next</h3>
+            </button>
+        </form>
     </div>
 
     <div class="question">
@@ -154,6 +179,26 @@
     }
 
     .question-input {
+        max-width: 100%;
+        padding: 0.5rem;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .question-input button {
+        width: 25%;
+        height: 3rem;
+        display: inline-flex;
+        justify-content: center; /* Centers text horizontally */
+        align-items: center;     /* Centers text vertically */    
+        padding-top: 1.5rem
+    }
+
+    .question-box {
         max-width: 75%;
         padding: 0.5rem;
         font-size: 1rem;
