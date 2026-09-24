@@ -5,8 +5,8 @@
     import {goto} from '$app/navigation';
     let name = '';
     let island = '';
-    let beachSafety = 0;
-    let trailLength = 0;
+    let beachSafety = $state(10);
+    let trailLength = $state(4);
 
     // Function to handle form submission
     function handleSubmit() {
@@ -58,6 +58,16 @@
             });
         }
     }
+
+    function getSafety(value) {
+        if (value < 6) {
+            return "not safe / only surfing"
+        } else if (value < 7) {
+            return "teenagers should be fine"
+        } else {
+            return "my baby cousin can swim here"
+        }
+    }
 </script>
 
 
@@ -72,7 +82,7 @@
     <div class="question">
         <h3>what is your name ?</h3>
         <form action="" class="question-input">
-            <input type="text" placeholder="your name"  bind:value={name}/>
+            <input type="text" placeholder="your name" class="question-box" bind:value={name}/>
             <button type="submit" onclick={scrollNext}>
                 <h3>next</h3>
             </button>
@@ -82,7 +92,7 @@
     <div class="question">
         <h3>what island are you on ?</h3>
         <form action="" class="question-input">
-            <select  bind:value={island}>
+            <select class="question-box"  bind:value={island}>
 
                 <option value="">Select your island</option>
                 <option value="island1">Big Island</option>
@@ -105,7 +115,10 @@
         <form action="" class="question-input">
 
             <input type="range" placeholder="your rating" class="question-box" min=0 max=10 bind:value={beachSafety}/>
-                    <button type="submit" onclick={scrollNext}>
+            <h3>{beachSafety}</h3>
+            <h3>{getSafety(beachSafety)}</h3>
+
+            <button type="submit" onclick={scrollNext}>
                 <h3>next</h3>
             </button>
         </form>
@@ -115,6 +128,21 @@
         <h3>what would be the max trail length for you be ?</h3>
         <form action="" class="question-input">
             <input type="range" placeholder="your rating" class="question-box" min=0 max=7 bind:value={trailLength}/>
+            <h3>
+                {trailLength}
+                {#if trailLength < 1}
+                mile
+
+                {/if}
+                
+                {#if trailLength < 7 && trailLength > 1}
+                    miles
+                {/if}
+
+                {#if trailLength == 7}
+                    + miles
+                {/if}
+            </h3>
             <button type="submit" onclick={scrollNext}>
                 <h3>next</h3>
             </button>
@@ -199,8 +227,8 @@
     }
 
     .question-box {
-        max-width: 75%;
-        padding: 0.5rem;
+        max-width: 50%;
+        padding: 1rem;
         font-size: 1rem;
     }
 

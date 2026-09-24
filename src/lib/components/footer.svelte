@@ -1,14 +1,14 @@
 <footer class="bottom-nav">
     <nav>
-        <a href="/" aria-label="Home">
+        <a href="/" aria-label="Home" id="home">
             <i class="fa-solid fa-house"></i>
         </a>
 
-        <a href="/search" aria-label="Search">
+        <a href="/search" aria-label="Search" id="search">
             <i class="fa-solid fa-magnifying-glass"></i>
         </a>
 
-        <a href="/favorites" aria-label="Favorites">
+        <a href="/favorites" aria-label="Favorites" id="favorites">
             <i class="fa-regular fa-star"></i>
         </a>
     </nav>

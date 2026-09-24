@@ -230,6 +230,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+                overflow-x: hidden;
+
     }
 
     .slider {
@@ -255,6 +257,7 @@
         padding: 20px;
         padding-top: 0px;
         border-radius: 20px;
+        width: 100%;
     }
     .mainContent * {
         border-radius: inherit;
