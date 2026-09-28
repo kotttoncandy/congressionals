@@ -16,7 +16,7 @@
     let loading = $state(true);
     const trailDistances = [];
     const beachDistances = new Map();
-
+    let resultArr = $state([])
     function distanceMiles(lat1, lon1, lat2, lon2) {
         const R = 3958.8; // Earth's radius in miles
 
@@ -114,6 +114,9 @@
 
         }
 
+        resultArr = interweave($trails, $beaches.names)
+
+
     }
 
     function get_coordinates(beach) {
@@ -183,6 +186,28 @@
     function changePage() {
         goto("search");
     }
+
+    function interweave(a1, a2) {
+        var maxLength = Math.max(a1.length, a2.length)
+        var array = []
+        for (let i = 0; i < maxLength; i++) {
+            if (i < a1.length) {
+                array.push({
+                    a: a1[i],
+                    t: "trail"
+                })
+            }
+
+            if (i < a2.length) {
+                array.push({
+                    a: a2[i],
+                    t: "beach"
+                })
+            }
+        }
+
+        return array
+    }
 </script>
 
 <main id="main">
@@ -214,12 +239,20 @@
             </form>
             <h4>Spots near you:</h4>
             <div class="slider">
-                <Trail trail={$trails[Math.floor(Math.random() * $trails.length)]}></Trail>
-                <Beach beach={$beaches.names[Math.floor(Math.random() * $beaches.names.length)]}></Beach>
-                <Trail trail={$trails[Math.floor(Math.random() * $trails.length)]}></Trail>
-                <Beach beach={$beaches.names[Math.floor(Math.random() * $beaches.names.length)]}></Beach>
-                <Trail trail={$trails[Math.floor(Math.random() * $trails.length)]}></Trail>
-                <Beach beach={$beaches.names[Math.floor(Math.random() * $beaches.names.length)]}></Beach>
+                {#each resultArr as t}
+
+                    {#if t.t == "beach"}
+                        <Trail trail={t}></Trail>
+                    
+
+                    {:else}
+                        <Beach beach={t}></Beach>
+                    {/if}
+                    
+                {/each}
+
+
+
             </div>
         {/if}
     </div>

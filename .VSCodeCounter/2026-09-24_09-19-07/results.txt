@@ -1,0 +1,65 @@
+Date : 2026-09-24 09:19:07
+Directory : c:\Users\277Student\Desktop\congressionals\src
+Total : 23 files,  1274 codes, 540 comments, 229 blanks, all 2043 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Svelte     |         13 |      1,109 |        539 |        205 |      1,853 |
+| JavaScript |          8 |        146 |          1 |         18 |        165 |
+| HTML       |          1 |         18 |          0 |          6 |         24 |
+| XML        |          1 |          1 |          0 |          0 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                            | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                               |         23 |      1,274 |        540 |        229 |      2,043 |
+| . (Files)                                                                       |          1 |         18 |          0 |          6 |         24 |
+| lib                                                                             |         13 |        443 |         23 |         65 |        531 |
+| lib (Files)                                                                     |          6 |         94 |          1 |          5 |        100 |
+| lib\assets                                                                      |          1 |          1 |          0 |          0 |          1 |
+| lib\components                                                                  |          6 |        348 |         22 |         60 |        430 |
+| routes                                                                          |          9 |        813 |        517 |        158 |      1,488 |
+| routes (Files)                                                                  |          2 |        354 |         12 |         68 |        434 |
+| routes\api                                                                      |          2 |         52 |          0 |         13 |         65 |
+| routes\api\images                                                               |          1 |         28 |          0 |         10 |         38 |
+| routes\api\trails                                                               |          1 |         24 |          0 |          3 |         27 |
+| routes\favorites                                                                |          1 |         63 |          0 |          9 |         72 |
+| routes\gettingInfo                                                              |          1 |        194 |          3 |         38 |        235 |
+| routes\info                                                                     |          1 |         62 |        502 |         16 |        580 |
+| routes\search                                                                   |          1 |         88 |          0 |         13 |        101 |
+| routes\signIn                                                                   |          1 |          0 |          0 |          1 |          1 |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                        | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\277Student\Desktop\congressionals\src\app.html                         | HTML       |         18 |          0 |          6 |         24 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\assets\favicon.svg           | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\beachData.js                 | JavaScript |          5 |          0 |          1 |          6 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\components\Beach.svelte      | Svelte     |        126 |          0 |         16 |        142 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\components\Trail.svelte      | Svelte     |        108 |         22 |         24 |        154 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\components\footer.svelte     | Svelte     |         52 |          0 |          9 |         61 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\components\map.svelte        | Svelte     |         19 |          0 |          7 |         26 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\components\siteHeader.svelte | Svelte     |         21 |          0 |          3 |         24 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\components\tracker.svelte    | Svelte     |         22 |          0 |          1 |         23 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\index.js                     | JavaScript |          0 |          1 |          1 |          2 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\saveData.js                  | JavaScript |          6 |          0 |          0 |          6 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\spotDistances.js             | JavaScript |          5 |          0 |          1 |          6 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\trailData.js                 | JavaScript |         63 |          0 |          1 |         64 |
+| c:\Users\277Student\Desktop\congressionals\src\lib\userData.js                  | JavaScript |         15 |          0 |          1 |         16 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\+layout.svelte            | Svelte     |        123 |          0 |         32 |        155 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\+page.svelte              | Svelte     |        231 |         12 |         36 |        279 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\api\images\+server.js     | JavaScript |         28 |          0 |         10 |         38 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\api\trails\+server.js     | JavaScript |         24 |          0 |          3 |         27 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\favorites\+page.svelte    | Svelte     |         63 |          0 |          9 |         72 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\gettingInfo\+page.svelte  | Svelte     |        194 |          3 |         38 |        235 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\info\+page.svelte         | Svelte     |         62 |        502 |         16 |        580 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\search\+page.svelte       | Svelte     |         88 |          0 |         13 |        101 |
+| c:\Users\277Student\Desktop\congressionals\src\routes\signIn\+page.svelte       | Svelte     |          0 |          0 |          1 |          1 |
+| Total                                                                           |            |      1,274 |        540 |        229 |      2,043 |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
