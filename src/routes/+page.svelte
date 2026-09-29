@@ -36,6 +36,67 @@
         return R * c;
     }
 
+
+    function getHawaiianIsland(lon, lat) {
+        const islands = {
+            Niihau: {
+                minLon: -160.3,
+                maxLon: -159.5,
+                minLat: 21.7,
+                maxLat: 22.1
+            },
+            Kauai: {
+                minLon: -159.8,
+                maxLon: -159.2,
+                minLat: 21.8,
+                maxLat: 22.3
+            },
+            Oahu: {
+                minLon: -158.3,
+                maxLon: -157.6,
+                minLat: 21.2,
+                maxLat: 21.8
+            },
+            Molokai: {
+                minLon: -157.4,
+                maxLon: -156.6,
+                minLat: 21.0,
+                maxLat: 21.3
+            },
+            Lanai: {
+                minLon: -157.1,
+                maxLon: -156.8,
+                minLat: 20.7,
+                maxLat: 21.0
+            },
+            Maui: {
+                minLon: -156.8,
+                maxLon: -155.9,
+                minLat: 20.5,
+                maxLat: 21.1
+            },
+            Hawaii: {
+                minLon: -156.1,
+                maxLon: -154.7,
+                minLat: 18.9,
+                maxLat: 20.3
+            }
+        };
+
+        for (const [island, box] of Object.entries(islands)) {
+            if (
+                lon >= box.minLon &&
+                lon <= box.maxLon &&
+                lat >= box.minLat &&
+                lat <= box.maxLat
+            ) {
+                return island;
+            }
+        }
+
+        return null;
+    }
+
     async function getLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition, showError);
@@ -109,6 +170,10 @@
     function setUserData() {
         if (localStorage.getItem("userData")) {
             userData.set(JSON.parse(localStorage.getItem("userData")));
+            userData.update((current) => ({
+                ...current,
+                island: getHawaiianIsland(current.lon, current.lat)
+            }))
         } else {
             goto("gettingInfo");
 
