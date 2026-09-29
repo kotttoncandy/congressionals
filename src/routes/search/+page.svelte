@@ -9,6 +9,7 @@
     let timeout = null;
 
     let query = $state("");
+    let array = $state([])
 
     $effect(() => {
         console.log(query);
@@ -24,7 +25,9 @@
             searchedBeaches = beaches.filter((beach) =>
                 beach.tags.name.toLowerCase().includes(query.toLowerCase()),
             );
-        }, 1500);
+
+            array = interweave(searchedTrails, searchedBeaches)
+        }, 1000);
     });
 
     let loaded = $state(false);
@@ -37,6 +40,27 @@
         const data = await response.json();
         trails = data.data;
         getBeaches();
+    }
+
+    function interweave(a1, a2) {
+        var maxLength = Math.max(a1.length, a2.length)
+        var array = []
+        for (let i = 0; i < maxLength; i++) {
+            if (i < a1.length) {
+                array.push({
+                    a: a1[i],
+                    t: "trail"
+                })
+            }
+
+            if (i < a2.length) {
+                array.push({
+                    a: a2[i],
+                    t: "beach"
+                })
+            }
+        }
+        return array
     }
 
     async function getBeaches() {
@@ -70,12 +94,15 @@
 
     {#if loaded}
         {#if query.length >= 2}
-            {#each searchedTrails as trail}
-                <Trail {trail}></Trail>
+            {#each array as t}
+                {#if t.t == "trail"}
+
+                    <Trail trail={t.a}></Trail>
+                {:else}
+                    <Beach beach={t.a}></Beach>
+                {/if}
             {/each}
-            {#each searchedBeaches as beach}
-                <Beach {beach}></Beach>
-            {/each}
+
         {/if}
     {/if}
 </main>

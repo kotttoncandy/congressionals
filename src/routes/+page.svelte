@@ -179,8 +179,6 @@
 
         }
 
-        resultArr = interweave($trails, $beaches.names)
-
 
     }
 
@@ -235,7 +233,12 @@
             names: sortedBeaches
         }));
         loading = false;
+        resultArr = interweave($trails, $beaches)
+        console.log($trails)
+
     }
+
+
     onMount(() => {
         if ($beaches.names.length > 0) {
             loading = false
@@ -246,6 +249,10 @@
         }
         
         setUserData()
+        if ($trails.length > 0 && $beaches.names.length > 0) {
+            resultArr = interweave($trails, $beaches)
+        }
+
     });
 
     function changePage() {
@@ -253,7 +260,7 @@
     }
 
     function interweave(a1, a2) {
-        var maxLength = Math.max(a1.length, a2.length)
+        var maxLength = Math.max(a1.length, a2.names.length)
         var array = []
         for (let i = 0; i < maxLength; i++) {
             if (i < a1.length) {
@@ -263,14 +270,13 @@
                 })
             }
 
-            if (i < a2.length) {
+            if (i < a2.names.length) {
                 array.push({
-                    a: a2[i],
+                    a: a2.names[i],
                     t: "beach"
                 })
             }
         }
-
         return array
     }
 </script>
@@ -304,18 +310,19 @@
             </form>
             <h4>Spots near you:</h4>
             <div class="slider">
-                {#each resultArr as t}
+                {#if $trails.length > 0 && $beaches.names.length > 0}
+                    {#each resultArr as t, i}
+                        {#if i < 10}
+                            {#if t.t == "trail"}
+                                <Trail trail={t.a}></Trail>
 
-                    {#if t.t == "beach"}
-                        <Trail trail={t}></Trail>
-                    
-
-                    {:else}
-                        <Beach beach={t}></Beach>
-                    {/if}
-                    
-                {/each}
-
+                            {:else}
+                                <Beach beach={t.a}></Beach>
+                            {/if}
+                        {/if}
+                        
+                    {/each}
+                {/if}
 
 
             </div>
