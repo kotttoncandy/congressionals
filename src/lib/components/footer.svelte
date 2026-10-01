@@ -1,4 +1,4 @@
-<footer class="bottom-nav">
+<div class="bottom-nav">
     <nav>
         <a href="/" aria-label="Home" id="home">
             <i class="fa-solid fa-house"></i>
@@ -12,7 +12,7 @@
             <i class="fa-regular fa-star"></i>
         </a>
     </nav>
-</footer>
+</div>
 
 <style>
 

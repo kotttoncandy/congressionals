@@ -138,6 +138,10 @@
     {#if currentUrl !== "/gettingInfo"}
         <Footer></Footer>
     {/if}
+    <footer>
+        <hr>
+        <small>created by students from whs</small>
+    </footer>
 </div>
 
 
@@ -147,6 +151,11 @@
     flex-direction: column;
 	min-height: 100vh;
     gap: 1rem;
+  }
+
+  footer {
+    padding: 20px;
+    padding-top: 0px;
   }
 
   .mainApp {
